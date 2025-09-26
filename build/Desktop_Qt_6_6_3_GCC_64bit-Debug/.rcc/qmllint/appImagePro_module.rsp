@@ -1,0 +1,10 @@
+-I
+/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug
+-I
+/home/b6/Qt/6.6.3/gcc_64/./qml
+--resource
+/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmake_ImagePro.qrc
+--resource
+/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/appImagePro_raw_qml_0.qrc
+--module
+ImagePro

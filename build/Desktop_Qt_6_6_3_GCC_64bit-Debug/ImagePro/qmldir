@@ -1,0 +1,22 @@
+module ImagePro
+typeinfo appImagePro.qmltypes
+prefer :/qt/qml/ImagePro/
+Main 1.0 Main.qml
+MainMenu 1.0 MainMenu.qml
+MainToolBar 1.0 MainToolBar.qml
+AdvancedTools 1.0 AdvancedTools.qml
+HistogramsTools 1.0 HistogramsTools.qml
+BasicTools 1.0 BasicTools.qml
+FunctionsTools 1.0 FunctionsTools.qml
+ContoursTools 1.0 ContoursTools.qml
+MainParamInput 1.0 MainParamInput.qml
+FileParam 1.0 FileParam.qml
+HistogramsParam 1.0 HistogramsParam.qml
+BasicParam 1.0 BasicParam.qml
+ContoursParam 1.0 ContoursParam.qml
+FunctionsParam 1.0 FunctionsParam.qml
+TransformationsTools 1.0 TransformationsTools.qml
+LeftView 1.0 LeftView.qml
+RightView 1.0 RightView.qml
+Canny 1.0 transformations/Canny.qml
+

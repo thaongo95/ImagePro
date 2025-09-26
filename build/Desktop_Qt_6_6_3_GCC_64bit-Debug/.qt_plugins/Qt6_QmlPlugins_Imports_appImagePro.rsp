@@ -1,0 +1,14 @@
+-rootPath
+/home/b6/Works/ImagePro
+-cmake-output
+-output-file
+/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appImagePro.cmake
+-importPath
+/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro
+-importPath
+/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug
+-importPath
+/home/b6/Qt/6.6.3/gcc_64/./qml
+-qrcFiles
+/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmake_ImagePro.qrc
+/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/appImagePro_raw_qml_0.qrc

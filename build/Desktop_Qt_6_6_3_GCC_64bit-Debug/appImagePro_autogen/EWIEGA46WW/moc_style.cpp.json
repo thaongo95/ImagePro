@@ -1,0 +1,61 @@
+{
+    "classes": [
+        {
+            "className": "Style",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "toolbarColor",
+                    "notify": "toolbarColorChanged",
+                    "read": "toolbarColor",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QStringList",
+                    "user": false,
+                    "write": "setToolbarColor"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 1,
+                    "name": "tooltripColor",
+                    "notify": "tooltripColorChanged",
+                    "read": "tooltripColor",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QStringList",
+                    "user": false,
+                    "write": "setTooltripColor"
+                }
+            ],
+            "qualifiedClassName": "Style",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "toolbarColorChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "tooltripColorChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "style.h",
+    "outputRevision": 68
+}
