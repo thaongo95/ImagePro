@@ -55,10 +55,7 @@ ApplicationWindow {
                 anchors.fill: parent
                 //source: "transformations/Canny.qml"
             }
-
         }
-
-
         Button {
             id: loadBt
             anchors.top: parent.top
@@ -97,9 +94,8 @@ ApplicationWindow {
                 originImg.source = ""
                 originImg.source = fileDialog.selectedFile
 
-                //img.source = "image://cv/any"
-                //scaleSlider.value = 1.0
-
+                result.source = ""
+                result.source = "image://cv/any"
             }
         }
         Popup{
@@ -144,7 +140,6 @@ ApplicationWindow {
                                 color: "white"
                             }
                     }
-
                     Label {
                         text: "Height:"
                         font.pixelSize: 16
@@ -242,6 +237,7 @@ ApplicationWindow {
             anchors.right: parent.right
             height: parent.height/2
             width: height*implicitWidth/implicitHeight
+
         }
     }
     function showResult(){
@@ -255,57 +251,42 @@ ApplicationWindow {
         anchors.bottom: parent.bottom
         anchors.right: parent.right
         anchors.margins: 10
+        Label{
+            id: mousePos
+            font.pixelSize: 16
+            anchors.top: parent.top
+            anchors.left: parent.left
+            anchors.margins: 2
+            color: "black"
+        }
+        Label{
+            id: mousePosIntensity
+            font.pixelSize: 16
+            anchors.top: parent.top
+            anchors.left: mousePos.right
+            anchors.margins: 2
+            color: "black"
+        }
         Image {
             id: result
             source: ""
             cache: false
-            fillMode: Image.PreserveAspectFit
+            //fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
             width: implicitWidth>_rightview.width ? _rightview.width : implicitWidth
             height: width*implicitHeight/implicitWidth
+            MouseArea{
+                anchors.fill: parent
+                hoverEnabled: true
+                onPositionChanged: function(mouse){
+                    let x = mouse.x
+                    let y = mouse.y
+                    mousePos.text = "(" + x.toFixed(0) + "," + y.toFixed(0)+")"
+                    // console.log("Intensity:", cvController.getIntensity(x, y))
+                    mousePosIntensity.text = "(" + cvController.getIntensity(x, y) + ")"
+                }
+            }
         }
     }
-    // MainParamInput{
-    //     id: _paraminput
-    //     anchors.top: _menu.bottom
-    //     anchors.bottom: parent.bottom
-    //     anchors.left: _toolbar.right
-    //     width: parent.width/4
-
-
-
-    // }
-    // Rectangle{
-    //     id: _content
-    //     property string bgColor: systemStyle.tooltripColor
-    //     anchors.top: _toolbar.bottom
-    //     anchors.left: _paraminput.right
-    //     anchors.right: parent.right
-    //     anchors.bottom: parent.bottom
-    //     color: Qt.lighter(_content.bgColor, 1.4)
-    //     // FileDialog {
-    //     //     id: fileDialog
-    //     //     title: "Choose an image"
-    //     //     nameFilters: ["Images (*.png *.jpg *.jpeg *.bmp)"]
-    //     //     onAccepted: {
-    //     //         //loadBt.visible = false
-    //     //         console.log("Selected:", selectedFile)
-    //     //         var localPath = selectedFile.toString().replace("file://", "")
-    //     //         //console.log("Local:", localPath)
-
-    //     //         cvController.loadImage(localPath)
-    //     //         img.source = ""
-    //     //         img.source = fileDialog.selectedFile
-
-    //     //         //img.source = "image://cv/any"
-    //     //         //scaleSlider.value = 1.0
-
-    //     //     }
-    //     // }
-
-
-
-
-    // }
 
 }

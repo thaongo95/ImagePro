@@ -1,0 +1,1589 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"qt6_target_qml_sources",
+			"qt6_add_qml_module",
+			"qt_add_qml_module",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"/home/b6/Qt/6.6.3/gcc_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 149,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 717,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 633,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2443,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2446,
+				"parent" : 3
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "appImagePro_tooling::@6890427a1f51a3e7e1df",
+	"name" : "appImagePro_tooling",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/Main.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/MainMenu.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/MainToolBar.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/LeftView.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/RightView.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/AdvancedTools.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/HistogramsTools.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/BasicTools.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/FunctionsTools.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/ContoursTools.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/TransformationsTools.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/Draw.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/Random.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/Smoothing.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/Morphology.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/ErodeDilate.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/ExtractLines.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/Pyramids.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/Threshold.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/InRange.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/transformations/Canny.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/aerial.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh1.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh2.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh3.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh4.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/cards.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/clock.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/drone.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/FPV.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/FPV.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/fpv.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/front.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_image.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_mini_image.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_mini_template.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_template.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/home.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/lambo.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/letter-p.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/letter-r.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/letter-y.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/list-white.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/location-marker-white.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/log-file-white.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/map.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/map2d.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/measure-white.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/origin.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/paper-plane-white.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/paper.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/placeholder.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/productPageTitle-uav-4-1.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/productPageTitle-uav-4-2.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/road.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/satellite.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/shapes.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/side.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/sodo.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/speed.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/temperature.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/test.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-100AI.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-50_1.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-P5_0.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-Z4DT.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-Z6D.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UCAV-13_0.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/video-player-white.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/ankh.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/ant.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/bee.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/beehive.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/butterfly.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/chinese-symbol.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/christian.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/cow.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/creek.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/enso.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/falcon.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/frog.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/gelt.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/hamsa.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/horse.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/iceberg.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/infinite.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/moon.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/mountain.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/parrot.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/peace.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/peacebol.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/peace-symbol.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/pelican.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/perspective.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/radiation.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/rhino.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/snowflake.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/star.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/symbol.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/tree.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/triskelion.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/whale.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/world.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/grape.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/papaya.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/tomato.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/watermelon.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/Main.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/MainMenu.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/MainToolBar.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/LeftView.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/RightView.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/AdvancedTools.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/HistogramsTools.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/BasicTools.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/FunctionsTools.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/ContoursTools.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/TransformationsTools.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/Draw.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/Random.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/Smoothing.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/Morphology.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/ErodeDilate.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/ExtractLines.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/Pyramids.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/Threshold.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/basic/InRange.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/transformations/Canny.qml.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/aerial.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh1.jpg.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh2.jpg.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh3.jpg.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh4.jpg.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/cards.jpg.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/clock.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/drone.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/FPV.jpg.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/FPV.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/fpv.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/front.jpg.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_image.jpg.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_mini_image.jpg.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_mini_template.jpg.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_template.jpg.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/home.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/lambo.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/letter-p.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/letter-r.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/letter-y.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/list-white.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/location-marker-white.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/log-file-white.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/map.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/map2d.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/measure-white.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/origin.jpg.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/paper-plane-white.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/paper.jpg.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/placeholder.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/productPageTitle-uav-4-1.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/productPageTitle-uav-4-2.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/road.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/satellite.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/shapes.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/side.jpg.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/sodo.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/speed.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/temperature.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/test.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-100AI.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-50_1.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-P5_0.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-Z4DT.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-Z6D.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UCAV-13_0.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/video-player-white.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/ankh.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/ant.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/bee.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/beehive.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/butterfly.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/chinese-symbol.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/christian.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/cow.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/creek.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/enso.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/falcon.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/frog.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/gelt.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/hamsa.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/horse.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/iceberg.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/infinite.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/moon.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/mountain.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/parrot.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/peace.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/peacebol.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/peace-symbol.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/pelican.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/perspective.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/radiation.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/rhino.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/snowflake.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/star.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/symbol.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/tree.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/triskelion.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/whale.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/world.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/grape.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/papaya.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/tomato.png.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/watermelon.png.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "INTERFACE_LIBRARY"
+}

@@ -16,12 +16,14 @@ set(SOURCES
     imageprovider.cpp
     imagecontroller.cpp
     imageinfo.cpp
+
 )
 
 set(HEADERS
     imageprovider.h
     imagecontroller.h
     imageinfo.h
+
 )
 
 # List QML files
@@ -29,18 +31,27 @@ set(QML_FILES
     Main.qml
     MainMenu.qml
     MainToolBar.qml
+    LeftView.qml
+    RightView.qml
+
     AdvancedTools.qml
     HistogramsTools.qml
     BasicTools.qml
     FunctionsTools.qml
     ContoursTools.qml
-    MainParamInput.qml
-    FileParam.qml
-    HistogramsParam.qml
-    BasicParam.qml
-    ContoursParam.qml
-    FunctionsParam.qml
     TransformationsTools.qml
+
+    basic/Draw.qml
+    basic/Random.qml
+    basic/Smoothing.qml
+    basic/Morphology.qml
+    basic/ErodeDilate.qml
+    basic/ExtractLines.qml
+    basic/Pyramids.qml
+    basic/Threshold.qml
+    basic/InRange.qml
+
+    transformations/Canny.qml
 )
 # List resources (images, videos)
 set(RESOURCES
@@ -126,7 +137,8 @@ set(RESOURCES
     assets/icons/symbol.png
     assets/icons/tree.png
     assets/icons/triskelion.png
-    assets/icons/whale.png assets/icons/world.png
+    assets/icons/whale.png
+    assets/icons/world.png
 
 )
 
@@ -140,14 +152,11 @@ qt_add_qml_module(appImagePro
     QML_FILES ${QML_FILES}
     RESOURCES ${RESOURCES}
     RESOURCES assets/icons/grape.png assets/icons/papaya.png assets/icons/tomato.png assets/icons/watermelon.png
-    SOURCES
     SOURCES style.h style.cpp
     SOURCES image_function.h image_function.cpp
     SOURCES app_tools.h app_tools.cpp
-    SOURCES
-    QML_FILES LeftView.qml
-    QML_FILES RightView.qml
-    QML_FILES transformations/Canny.qml
+    SOURCES basic_operation.h basic_operation.cpp
+
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

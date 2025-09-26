@@ -8,6 +8,14 @@ void ImageController::loadImage(const QString &filePath) {
         m_provider->loadImage(filePath);
 }
 
+QString ImageController::getIntensity(int x, int y)
+{
+    QString result;
+    if (m_provider)
+        result = m_provider->getIntensity(x,y);
+    return result;
+}
+
 void ImageController::createImage(int width, int height, int red, int green, int blue)
 {
     if (m_provider)

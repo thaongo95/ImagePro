@@ -19,6 +19,21 @@
                         "access": "public",
                         "arguments": [
                             {
+                                "name": "x",
+                                "type": "int"
+                            },
+                            {
+                                "name": "y",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "getIntensity",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
                                 "name": "width",
                                 "type": "int"
                             },

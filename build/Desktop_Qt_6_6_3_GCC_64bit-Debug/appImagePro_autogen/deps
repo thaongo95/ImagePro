@@ -744,6 +744,8 @@ appImagePro_autogen/timestamp: \
 	/home/b6/Works/ImagePro/CMakeLists.txt \
 	/home/b6/Works/ImagePro/app_tools.cpp \
 	/home/b6/Works/ImagePro/app_tools.h \
+	/home/b6/Works/ImagePro/basic_operation.cpp \
+	/home/b6/Works/ImagePro/basic_operation.h \
 	/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_qmlcache_loader.cpp \
 	/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \

@@ -10,15 +10,15 @@ Item{
         spacing: 10
         clip: true
         model: [{label: "Draw", source: "assets/icons/ant.png", color: "#7fffd4"},
-        {label: "Generator", source: "assets/icons/bee.png", color: "#4169e1"},
+        {label: "Random", source: "assets/icons/bee.png", color: "#4169e1"},
         {label: "Smoothing", source: "assets/icons/butterfly.png", color: "#f08080"},
         {label: "Erode&Dilate", source: "assets/icons/cow.png", color: "#daa520"},
         {label: "Morphology", source: "assets/icons/falcon.png", color: "#9932cc"},
-        {label: "Hit-or-miss", source: "assets/icons/frog.png", color: "#f08080"},
-        {label: "E-Lines", source: "assets/icons/horse.png", color: "#9932cc"},
+        {label: "Convert", source: "assets/icons/frog.png", color: "#f08080"},
+        {label: "ExtractLines", source: "assets/icons/horse.png", color: "#9932cc"},
         {label: "Pyramids", source: "assets/icons/parrot.png", color: "#f08080"},
         {label: "Threshold", source: "assets/icons/rhino.png", color: "#4169e1"},
-        {label: "inRange", source: "assets/icons/whale.png", color: "#daa520"}]
+        {label: "InRange", source: "assets/icons/whale.png", color: "#daa520"}]
         delegate: Rectangle{
             height: parent.height*2/3
             anchors.verticalCenter: parent.verticalCenter

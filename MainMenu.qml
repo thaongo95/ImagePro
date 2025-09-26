@@ -4,6 +4,7 @@ import QtQuick.Layouts
 Rectangle{
     id: _root
     color: systemStyle.toolbarColor
+    property int selectedIndex: -1
     Row{
         anchors.fill: parent
         spacing: 10
@@ -23,12 +24,13 @@ Rectangle{
                     text: modelData.name
                     anchors.centerIn: parent
                     font.pixelSize: 18
-                    color: "white"
+                    color: index === selectedIndex ? "black" : "white"
                 }
                 MouseArea{
                     anchors.fill: parent
                     onClicked:{
                         mainWindow.getParamState(modelData.state)
+                        selectedIndex = index
                     }
                 }
             }
