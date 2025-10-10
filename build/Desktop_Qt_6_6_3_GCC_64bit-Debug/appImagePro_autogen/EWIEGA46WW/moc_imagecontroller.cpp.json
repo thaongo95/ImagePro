@@ -60,11 +60,313 @@
                     "access": "public",
                     "arguments": [
                         {
+                            "name": "filePath",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "saveImage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
                             "name": "factor",
                             "type": "double"
                         }
                     ],
                     "name": "scaleImage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "alpha",
+                            "type": "double"
+                        },
+                        {
+                            "name": "beta",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "basicExposure",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "gammaValue",
+                            "type": "double"
+                        }
+                    ],
+                    "name": "gammaCorrect",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "blurType",
+                            "type": "int"
+                        },
+                        {
+                            "name": "size",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "smoothing",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "type",
+                            "type": "int"
+                        },
+                        {
+                            "name": "size",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "erosion",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "type",
+                            "type": "int"
+                        },
+                        {
+                            "name": "size",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "dilation",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "morph_operator",
+                            "type": "int"
+                        },
+                        {
+                            "name": "morph_type",
+                            "type": "int"
+                        },
+                        {
+                            "name": "morph_size",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "morphology",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "convertImg",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "type",
+                            "type": "int"
+                        },
+                        {
+                            "name": "size",
+                            "type": "double"
+                        }
+                    ],
+                    "name": "extractLines",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "threType",
+                            "type": "int"
+                        },
+                        {
+                            "name": "threValue",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "basicThreshold",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "h_low",
+                            "type": "int"
+                        },
+                        {
+                            "name": "h_high",
+                            "type": "int"
+                        },
+                        {
+                            "name": "s_low",
+                            "type": "int"
+                        },
+                        {
+                            "name": "s_high",
+                            "type": "int"
+                        },
+                        {
+                            "name": "v_low",
+                            "type": "int"
+                        },
+                        {
+                            "name": "v_high",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "inrangeHSV",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "colorType",
+                            "type": "int"
+                        },
+                        {
+                            "name": "thre_erea",
+                            "type": "double"
+                        }
+                    ],
+                    "name": "enumColorDetect",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "thre_erea",
+                            "type": "double"
+                        },
+                        {
+                            "name": "h_low",
+                            "type": "int"
+                        },
+                        {
+                            "name": "h_high",
+                            "type": "int"
+                        },
+                        {
+                            "name": "s_low",
+                            "type": "int"
+                        },
+                        {
+                            "name": "s_high",
+                            "type": "int"
+                        },
+                        {
+                            "name": "v_low",
+                            "type": "int"
+                        },
+                        {
+                            "name": "v_high",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "customColorDetect",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "imgType",
+                            "type": "int"
+                        },
+                        {
+                            "name": "scale",
+                            "type": "float"
+                        }
+                    ],
+                    "name": "his_equalization",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "matchingType",
+                            "type": "int"
+                        },
+                        {
+                            "name": "tempPath",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "tempMatching",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "kernelType",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "filter_2d",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "ksize",
+                            "type": "int"
+                        },
+                        {
+                            "name": "scale",
+                            "type": "double"
+                        },
+                        {
+                            "name": "delta",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "sobel",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "ksize",
+                            "type": "int"
+                        },
+                        {
+                            "name": "scale",
+                            "type": "double"
+                        },
+                        {
+                            "name": "delta",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "laplace",
                     "returnType": "void"
                 },
                 {
@@ -77,10 +379,301 @@
                         {
                             "name": "high_threshold",
                             "type": "double"
+                        },
+                        {
+                            "name": "ksize",
+                            "type": "int"
+                        },
+                        {
+                            "name": "l2",
+                            "type": "bool"
                         }
                     ],
                     "name": "cannyDetect",
                     "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "thres",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "houghline",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "thres",
+                            "type": "int"
+                        },
+                        {
+                            "name": "minLength",
+                            "type": "double"
+                        },
+                        {
+                            "name": "maxGap",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "houghline_p",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "minRadius",
+                            "type": "int"
+                        },
+                        {
+                            "name": "maxRadius",
+                            "type": "int"
+                        },
+                        {
+                            "name": "distance",
+                            "type": "double"
+                        }
+                    ],
+                    "name": "hough_circle",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "type",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "re_map",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "angle",
+                            "type": "int"
+                        },
+                        {
+                            "name": "scale",
+                            "type": "float"
+                        }
+                    ],
+                    "name": "rotation",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "p1x",
+                            "type": "double"
+                        },
+                        {
+                            "name": "p1y",
+                            "type": "double"
+                        },
+                        {
+                            "name": "p2x",
+                            "type": "double"
+                        },
+                        {
+                            "name": "p2y",
+                            "type": "double"
+                        },
+                        {
+                            "name": "p3x",
+                            "type": "double"
+                        },
+                        {
+                            "name": "p3y",
+                            "type": "double"
+                        }
+                    ],
+                    "name": "affine",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "matchingType",
+                            "type": "int"
+                        },
+                        {
+                            "name": "tempPath",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "guil_ballard",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "thresh",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "harris_corner",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "maxc_corners",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "shitomasi",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "type",
+                            "type": "int"
+                        },
+                        {
+                            "name": "level",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "custom",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "max_corners",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "subpix",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "nfeatures",
+                            "type": "int"
+                        },
+                        {
+                            "name": "contrastThre",
+                            "type": "double"
+                        }
+                    ],
+                    "name": "siftDetection",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "nfeatures",
+                            "type": "int"
+                        },
+                        {
+                            "name": "fastThre",
+                            "type": "double"
+                        }
+                    ],
+                    "name": "orbDetection",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "cannyThres",
+                            "type": "int"
+                        },
+                        {
+                            "name": "colorType",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "drawEgde",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "cannyThres",
+                            "type": "int"
+                        },
+                        {
+                            "name": "colorType",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "convexHull",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "cannyThres",
+                            "type": "int"
+                        },
+                        {
+                            "name": "colorType",
+                            "type": "int"
+                        },
+                        {
+                            "name": "shapeID",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "drawShape",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "cannyThres",
+                            "type": "int"
+                        },
+                        {
+                            "name": "colorType",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "moment",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "cannyThres",
+                            "type": "int"
+                        },
+                        {
+                            "name": "contour",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "point_test",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "showInfo",
+                    "returnType": "QString"
                 }
             ],
             "object": true,

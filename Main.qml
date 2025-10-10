@@ -12,7 +12,7 @@ ApplicationWindow {
     function getParamState(value){
         if (value===1) _toolbar.state = "basic"
         else if (value===2) _toolbar.state = "transformations"
-        else if (value===3) _toolbar.state = "histograms"
+        else if (value===3) _toolbar.state = "2dfeatures"
         else if (value===4) _toolbar.state = "contours"
         else if (value===5) _toolbar.state = "functions"
         else _toolbar.state = "advanced"
@@ -31,8 +31,9 @@ ApplicationWindow {
         anchors.left: parent.left
         height: parent.height/10
     }
-    function getToolsInput(value){
+    function getToolsInput(value, color){
         contentLoader.source = value
+        _leftview.color = (color==="#7fffd4" | color==="#f08080") ?  Qt.lighter(color, 1.2) : Qt.lighter(color, 1.5)
     }
     LeftView{
         id: _leftview
@@ -52,17 +53,17 @@ ApplicationWindow {
             color: Qt.lighter(_leftview.color, 1.1)
             Loader{
                 id: contentLoader
-                anchors.fill: parent
-                //source: "transformations/Canny.qml"
+                anchors.fill: parent             
             }
         }
+
         Button {
             id: loadBt
             anchors.top: parent.top
             anchors.right: createBt.left
             anchors.margins: 10
             text: "Load Image..."
-            onClicked: fileDialog.open()
+            onClicked: loadDialog.open()
         }
         Button {
             id: createBt
@@ -78,10 +79,10 @@ ApplicationWindow {
             anchors.left: createBt.right
             anchors.margins: 10
             text: "Save Image..."
-            onClicked: fileDialog.open()
+            onClicked: saveDialog.open()
         }
         FileDialog {
-            id: fileDialog
+            id: loadDialog
             title: "Choose an image"
             nameFilters: ["Images (*.png *.jpg *.jpeg *.bmp)"]
             onAccepted: {
@@ -92,10 +93,24 @@ ApplicationWindow {
 
                 cvController.loadImage(localPath)
                 originImg.source = ""
-                originImg.source = fileDialog.selectedFile
+                originImg.source = loadDialog.selectedFile
 
                 result.source = ""
                 result.source = "image://cv/any"
+                _rightview.imgInfo = cvController.showInfo()
+            }
+        }
+        FileDialog {
+            id: saveDialog
+            title: "Choose an image"
+            fileMode: FileDialog.Directory
+            onAccepted: {
+                //loadBt.visible = false
+                console.log("Selected:", selectedFile)
+                var localPath = selectedFile.toString().replace("file://", "")
+                console.log("Local:", localPath)
+                cvController.saveImage(localPath)
+
             }
         }
         Popup{
@@ -233,8 +248,7 @@ ApplicationWindow {
             cache: false
             fillMode: Image.PreserveAspectFit
             anchors.bottom: parent.bottom
-            anchors.left: parent.left
-            anchors.right: parent.right
+            anchors.horizontalCenter: parent.horizontalCenter
             height: parent.height/2
             width: height*implicitWidth/implicitHeight
 
@@ -246,6 +260,9 @@ ApplicationWindow {
     }
     RightView{
         id: _rightview
+        property int sizeOfBt: 25
+        property int marginSize: 3
+        property alias imgInfo: _imageInfo.text
         anchors.left: parent.horizontalCenter
         anchors.top: _toolbar.bottom
         anchors.bottom: parent.bottom
@@ -256,7 +273,7 @@ ApplicationWindow {
             font.pixelSize: 16
             anchors.top: parent.top
             anchors.left: parent.left
-            anchors.margins: 2
+            anchors.margins: _rightview.marginSize
             color: "black"
         }
         Label{
@@ -264,9 +281,68 @@ ApplicationWindow {
             font.pixelSize: 16
             anchors.top: parent.top
             anchors.left: mousePos.right
-            anchors.margins: 2
+            anchors.margins: _rightview.marginSize
             color: "black"
         }
+        Image{
+            id: downloadBt
+            anchors.top: parent.top
+            anchors.right: parent.right
+            anchors.margins: _rightview.marginSize
+            width: _rightview.sizeOfBt
+            height: width
+            source: "assets/icons/dowanlod.png"
+            fillMode: Image.PreserveAspectFit
+            property int index: 0
+            MouseArea{
+                anchors.fill: parent
+                onClicked: {
+                    downloadBt.index++
+                    cvController.saveImage("/home/b6/Works/ImagePro/assets/results/image_"+ downloadBt.index.toFixed(0)+ ".jpg")
+                }
+            }
+        }
+        Image{
+            id: nextBt
+            anchors.top: parent.top
+            anchors.right: downloadBt.left
+            anchors.margins: _rightview.marginSize
+            width: _rightview.sizeOfBt
+            height: width
+            source: "assets/icons/next-button.png"
+            fillMode: Image.PreserveAspectFit
+        }
+        Image{
+            id: previousBt
+            anchors.top: parent.top
+            anchors.right: nextBt.left
+            anchors.margins: _rightview.marginSize
+            width: _rightview.sizeOfBt
+            height: width
+            source: "assets/icons/back-button.png"
+            fillMode: Image.PreserveAspectFit
+        }
+        Image{
+            id: redoBt
+            anchors.top: parent.top
+            anchors.right: previousBt.left
+            anchors.margins: _rightview.marginSize
+            width: _rightview.sizeOfBt
+            height: width
+            source: "assets/icons/right-arrowhead.png"
+            fillMode: Image.PreserveAspectFit
+        }
+        Image{
+            id: refreshBt
+            anchors.top: parent.top
+            anchors.right: redoBt.left
+            anchors.margins: _rightview.marginSize
+            width: _rightview.sizeOfBt
+            height: width
+            source: "assets/icons/repeat.png"
+            fillMode: Image.PreserveAspectFit
+        }
+
         Image {
             id: result
             source: ""
@@ -282,11 +358,18 @@ ApplicationWindow {
                     let x = mouse.x
                     let y = mouse.y
                     mousePos.text = "(" + x.toFixed(0) + "," + y.toFixed(0)+")"
-                    // console.log("Intensity:", cvController.getIntensity(x, y))
-                    mousePosIntensity.text = "(" + cvController.getIntensity(x, y) + ")"
+                    let scaleX = result.sourceSize.width / result.width
+                    let scaleY = result.sourceSize.height / result.height
+                    mousePosIntensity.text = "(" + cvController.getIntensity(Math.floor(x*scaleX), Math.floor(y*scaleY)) + ")"
                 }
             }
         }
+        Text {
+            id: _imageInfo
+            anchors.bottom: parent.bottom
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.rightMargin: 10
+            font.pointSize: 14
+        }
     }
-
 }

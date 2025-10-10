@@ -20,8 +20,8 @@ Rectangle{
             PropertyChanges { target: contentLoader; source: "TransformationsTools.qml" }
         },
         State {
-            name: "histograms"
-            PropertyChanges { target: contentLoader; source: "HistogramsTools.qml" }
+            name: "2dfeatures"
+            PropertyChanges { target: contentLoader; source: "2DFeaturesTools.qml" }
         },
         State {
             name: "contours"

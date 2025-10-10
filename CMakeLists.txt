@@ -35,19 +35,19 @@ set(QML_FILES
     RightView.qml
 
     AdvancedTools.qml
-    HistogramsTools.qml
+    2DFeaturesTools.qml
     BasicTools.qml
     FunctionsTools.qml
     ContoursTools.qml
     TransformationsTools.qml
 
-    basic/Draw.qml
-    basic/Random.qml
+    basic/Exposure.qml
+    basic/Gamma.qml
     basic/Smoothing.qml
     basic/Morphology.qml
     basic/ErodeDilate.qml
     basic/ExtractLines.qml
-    basic/Pyramids.qml
+
     basic/Threshold.qml
     basic/InRange.qml
 
@@ -156,6 +156,35 @@ qt_add_qml_module(appImagePro
     SOURCES image_function.h image_function.cpp
     SOURCES app_tools.h app_tools.cpp
     SOURCES basic_operation.h basic_operation.cpp
+    RESOURCES assets/icons/back-button.png assets/icons/dowanlod.png assets/icons/next-button.png assets/icons/repeat.png assets/icons/right-arrowhead.png
+    QML_FILES basic/Convert.qml
+    QML_FILES basic/ColorDetection.qml
+    QML_FILES transformations/Filter2D.qml
+    QML_FILES transformations/Rotation.qml
+    QML_FILES transformations/Sobel.qml
+    QML_FILES transformations/Laplacian.qml
+    QML_FILES transformations/HoughLine.qml
+    QML_FILES transformations/HoughCircle.qml
+    QML_FILES transformations/GuilHough.qml
+    QML_FILES transformations/Remap.qml
+    QML_FILES transformations/Affine.qml
+    RESOURCES assets/images/sodo.png
+    RESOURCES assets/images/sudoku.png
+    RESOURCES assets/icons/avocado.png
+    QML_FILES contours/DrawEgde.qml
+    QML_FILES contours/DrawShape.qml
+    QML_FILES contours/ConvexHull.qml
+    QML_FILES contours/Moments.qml
+    QML_FILES contours/PointPolygon.qml
+    QML_FILES basic/Contrast.qml
+    QML_FILES basic/TemplateMatching.qml
+    QML_FILES features2D/SIFT.qml features2D/Subpix.qml features2D/Custom.qml features2D/HarrisCorner.qml features2D/ShiTomasi.qml
+    RESOURCES assets/icons/almond.png assets/icons/fruits.png assets/icons/olive.png assets/icons/pineapple.png assets/icons/strawberry.png
+    RESOURCES assets/icons/dog.png assets/icons/flamingo.png
+    QML_FILES features2D/FeaturesDescription.qml
+    QML_FILES features2D/FeaturesMatching.qml
+    QML_FILES features2D/ORB.qml
+    QML_FILES features2D/AKAZE.qml
 
 )
 

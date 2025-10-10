@@ -2,6 +2,7 @@ import QtQuick
 import QtQuick.Controls
 Item{
     id: _advanced
+    property int selectedIndex: -1
     ListView{
         id: advancedColumn
         anchors.fill: parent
