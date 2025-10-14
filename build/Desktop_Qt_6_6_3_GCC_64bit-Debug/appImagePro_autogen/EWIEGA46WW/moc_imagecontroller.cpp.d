@@ -164,6 +164,7 @@
   /home/b6/Qt/6.6.3/gcc_64/include/QtQuick/qtquick-config.h \
   /home/b6/Qt/6.6.3/gcc_64/include/QtQuick/qtquickexports.h \
   /home/b6/Qt/6.6.3/gcc_64/include/QtQuick/qtquickglobal.h \
+  /home/b6/Works/ImagePro/basic_operation.h \
   /home/b6/Works/ImagePro/imageprovider.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \

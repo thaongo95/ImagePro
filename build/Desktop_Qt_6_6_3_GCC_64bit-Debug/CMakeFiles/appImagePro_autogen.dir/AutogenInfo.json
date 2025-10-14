@@ -800,21 +800,9 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/b6/Works/ImagePro/app_tools.h",
-			"MU",
-			"EWIEGA46WW/moc_app_tools.cpp",
-			null
-		],
-		[
 			"/home/b6/Works/ImagePro/basic_operation.h",
 			"MU",
 			"EWIEGA46WW/moc_basic_operation.cpp",
-			null
-		],
-		[
-			"/home/b6/Works/ImagePro/image_function.h",
-			"MU",
-			"EWIEGA46WW/moc_image_function.cpp",
 			null
 		],
 		[
@@ -824,21 +812,9 @@
 			null
 		],
 		[
-			"/home/b6/Works/ImagePro/imageinfo.h",
-			"MU",
-			"EWIEGA46WW/moc_imageinfo.cpp",
-			null
-		],
-		[
 			"/home/b6/Works/ImagePro/imageprovider.h",
 			"MU",
 			"EWIEGA46WW/moc_imageprovider.cpp",
-			null
-		],
-		[
-			"/home/b6/Works/ImagePro/style.h",
-			"MU",
-			"EWIEGA46WW/moc_style.cpp",
 			null
 		]
 	],
@@ -941,13 +917,15 @@
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_contours/PointPolygon_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/AKAZE_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/Custom_qml.cpp",
-		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesDescription_qml.cpp",
+		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesDetecting_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesMatching_qml.cpp",
+		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesStitching_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/HarrisCorner_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/ORB_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/SIFT_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/ShiTomasi_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/Subpix_qml.cpp",
+		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_functions/IconColor_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Affine_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Canny_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Filter2D_qml.cpp",
@@ -972,19 +950,15 @@
 	"SETTINGS_FILE" : "/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/CMakeFiles/appImagePro_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/b6/Works/ImagePro/app_tools.cpp", "MU", null ],
 		[ "/home/b6/Works/ImagePro/basic_operation.cpp", "MU", null ],
 		[
 			"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_qmlcache_loader.cpp",
 			"MU",
 			null
 		],
-		[ "/home/b6/Works/ImagePro/image_function.cpp", "MU", null ],
 		[ "/home/b6/Works/ImagePro/imagecontroller.cpp", "MU", null ],
-		[ "/home/b6/Works/ImagePro/imageinfo.cpp", "MU", null ],
 		[ "/home/b6/Works/ImagePro/imageprovider.cpp", "MU", null ],
-		[ "/home/b6/Works/ImagePro/main.cpp", "MU", null ],
-		[ "/home/b6/Works/ImagePro/style.cpp", "MU", null ]
+		[ "/home/b6/Works/ImagePro/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
@@ -1020,13 +994,15 @@
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_contours/PointPolygon_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/AKAZE_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/Custom_qml.cpp",
-		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesDescription_qml.cpp",
+		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesDetecting_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesMatching_qml.cpp",
+		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesStitching_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/HarrisCorner_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/ORB_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/SIFT_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/ShiTomasi_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/Subpix_qml.cpp",
+		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_functions/IconColor_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Affine_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Canny_qml.cpp",
 		"/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Filter2D_qml.cpp",

@@ -15,14 +15,14 @@ set(SOURCES
     main.cpp
     imageprovider.cpp
     imagecontroller.cpp
-    imageinfo.cpp
+
 
 )
 
 set(HEADERS
     imageprovider.h
     imagecontroller.h
-    imageinfo.h
+
 
 )
 
@@ -55,54 +55,7 @@ set(QML_FILES
 )
 # List resources (images, videos)
 set(RESOURCES
-    assets/images/aerial.png
-    assets/images/anh1.jpg
-    assets/images/anh2.jpg
-    assets/images/anh3.jpg
-    assets/images/anh4.jpg
-    assets/images/cards.jpg
-    assets/images/clock.png
-    assets/images/drone.png
-    assets/images/FPV.jpg
-    assets/images/FPV.png
-    assets/images/fpv.png
-    assets/images/front.jpg
-    assets/images/generalized_hough_image.jpg
-    assets/images/generalized_hough_mini_image.jpg
-    assets/images/generalized_hough_mini_template.jpg
-    assets/images/generalized_hough_template.jpg
-    assets/images/home.png
-    assets/images/lambo.png
-    assets/images/letter-p.png
-    assets/images/letter-r.png
-    assets/images/letter-y.png
-    assets/images/list-white.png
-    assets/images/location-marker-white.png
-    assets/images/log-file-white.png
-    assets/images/map.png
-    assets/images/map2d.png
-    assets/images/measure-white.png
-    assets/images/origin.jpg
-    assets/images/paper-plane-white.png
-    assets/images/paper.jpg
-    assets/images/placeholder.png
-    assets/images/productPageTitle-uav-4-1.png
-    assets/images/productPageTitle-uav-4-2.png
-    assets/images/road.png
-    assets/images/satellite.png
-    assets/images/shapes.png
-    assets/images/side.jpg
-    assets/images/sodo.png
-    assets/images/speed.png
-    assets/images/temperature.png
-    assets/images/test.png
-    assets/images/UAV-100AI.png
-    assets/images/UAV-50_1.png
-    assets/images/UAV-P5_0.png
-    assets/images/UAV-Z4DT.png
-    assets/images/UAV-Z6D.png
-    assets/images/UCAV-13_0.png
-    assets/images/video-player-white.png
+
 
 
     assets/icons/ankh.png
@@ -139,7 +92,13 @@ set(RESOURCES
     assets/icons/triskelion.png
     assets/icons/whale.png
     assets/icons/world.png
-
+    assets/icons/axe.png
+    assets/icons/axedown.png
+    assets/icons/hand-saw.png
+    assets/icons/knife.png
+    assets/icons/secateurs.png
+    assets/icons/sword.png
+    assets/icons/trowel.png
 )
 
 qt_add_executable(appImagePro
@@ -152,9 +111,9 @@ qt_add_qml_module(appImagePro
     QML_FILES ${QML_FILES}
     RESOURCES ${RESOURCES}
     RESOURCES assets/icons/grape.png assets/icons/papaya.png assets/icons/tomato.png assets/icons/watermelon.png
-    SOURCES style.h style.cpp
-    SOURCES image_function.h image_function.cpp
-    SOURCES app_tools.h app_tools.cpp
+    SOURCES
+    SOURCES
+    SOURCES
     SOURCES basic_operation.h basic_operation.cpp
     RESOURCES assets/icons/back-button.png assets/icons/dowanlod.png assets/icons/next-button.png assets/icons/repeat.png assets/icons/right-arrowhead.png
     QML_FILES basic/Convert.qml
@@ -181,10 +140,13 @@ qt_add_qml_module(appImagePro
     QML_FILES features2D/SIFT.qml features2D/Subpix.qml features2D/Custom.qml features2D/HarrisCorner.qml features2D/ShiTomasi.qml
     RESOURCES assets/icons/almond.png assets/icons/fruits.png assets/icons/olive.png assets/icons/pineapple.png assets/icons/strawberry.png
     RESOURCES assets/icons/dog.png assets/icons/flamingo.png
-    QML_FILES features2D/FeaturesDescription.qml
+    QML_FILES features2D/FeaturesDetecting.qml
     QML_FILES features2D/FeaturesMatching.qml
     QML_FILES features2D/ORB.qml
     QML_FILES features2D/AKAZE.qml
+    QML_FILES features2D/FeaturesStitching.qml
+    QML_FILES functions/IconColor.qml
+    RESOURCES assets/icons/circlePlus.png
 
 )
 

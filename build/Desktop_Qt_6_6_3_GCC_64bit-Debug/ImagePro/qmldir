@@ -43,8 +43,10 @@ Subpix 1.0 features2D/Subpix.qml
 Custom 1.0 features2D/Custom.qml
 HarrisCorner 1.0 features2D/HarrisCorner.qml
 ShiTomasi 1.0 features2D/ShiTomasi.qml
-FeaturesDescription 1.0 features2D/FeaturesDescription.qml
+FeaturesDetecting 1.0 features2D/FeaturesDetecting.qml
 FeaturesMatching 1.0 features2D/FeaturesMatching.qml
 ORB 1.0 features2D/ORB.qml
 AKAZE 1.0 features2D/AKAZE.qml
+FeaturesStitching 1.0 features2D/FeaturesStitching.qml
+IconColor 1.0 functions/IconColor.qml
 

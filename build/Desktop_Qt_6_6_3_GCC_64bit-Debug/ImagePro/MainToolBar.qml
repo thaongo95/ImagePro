@@ -2,7 +2,6 @@ import QtQuick
 
 Rectangle{
     id: _tools
-    property string toolsColor: systemStyle.tooltripColor
     color: Qt.darker("#800000", 1.5)
     property alias currentState: _tools.state
     Loader{

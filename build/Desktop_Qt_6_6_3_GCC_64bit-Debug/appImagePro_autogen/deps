@@ -742,8 +742,6 @@ appImagePro_autogen/timestamp: \
 	/home/b6/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux.cmake \
 	/home/b6/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/UnixPaths.cmake \
 	/home/b6/Works/ImagePro/CMakeLists.txt \
-	/home/b6/Works/ImagePro/app_tools.cpp \
-	/home/b6/Works/ImagePro/app_tools.h \
 	/home/b6/Works/ImagePro/basic_operation.cpp \
 	/home/b6/Works/ImagePro/basic_operation.h \
 	/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.qtc/package-manager/auto-setup.cmake \
@@ -751,17 +749,11 @@ appImagePro_autogen/timestamp: \
 	/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appImagePro_autogen/moc_predefs.h \
-	/home/b6/Works/ImagePro/image_function.cpp \
-	/home/b6/Works/ImagePro/image_function.h \
 	/home/b6/Works/ImagePro/imagecontroller.cpp \
 	/home/b6/Works/ImagePro/imagecontroller.h \
-	/home/b6/Works/ImagePro/imageinfo.cpp \
-	/home/b6/Works/ImagePro/imageinfo.h \
 	/home/b6/Works/ImagePro/imageprovider.cpp \
 	/home/b6/Works/ImagePro/imageprovider.h \
 	/home/b6/Works/ImagePro/main.cpp \
-	/home/b6/Works/ImagePro/style.cpp \
-	/home/b6/Works/ImagePro/style.h \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/errno-base.h \
 	/usr/include/asm-generic/errno.h \

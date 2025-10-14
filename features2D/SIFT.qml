@@ -68,6 +68,7 @@ Rectangle{
         text: _contrastThre.value.toFixed(3)
         font.pointSize: 12
     }
+
     Label{
         id: note
         anchors.horizontalCenter: parent.horizontalCenter

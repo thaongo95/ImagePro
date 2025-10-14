@@ -1,7 +1,6 @@
 import QtQuick
 
 Rectangle {
-    property string _color: systemStyle.tooltripColor
-    color: Qt.lighter(_color, 1.2)
+    color: Qt.lighter("#e9967a", 1.2)
 
 }

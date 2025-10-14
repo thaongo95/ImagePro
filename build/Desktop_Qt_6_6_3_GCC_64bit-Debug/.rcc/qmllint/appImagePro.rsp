@@ -50,7 +50,9 @@
 /home/b6/Works/ImagePro/features2D/Custom.qml
 /home/b6/Works/ImagePro/features2D/HarrisCorner.qml
 /home/b6/Works/ImagePro/features2D/ShiTomasi.qml
-/home/b6/Works/ImagePro/features2D/FeaturesDescription.qml
+/home/b6/Works/ImagePro/features2D/FeaturesDetecting.qml
 /home/b6/Works/ImagePro/features2D/FeaturesMatching.qml
 /home/b6/Works/ImagePro/features2D/ORB.qml
 /home/b6/Works/ImagePro/features2D/AKAZE.qml
+/home/b6/Works/ImagePro/features2D/FeaturesStitching.qml
+/home/b6/Works/ImagePro/functions/IconColor.qml

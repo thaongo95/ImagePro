@@ -71,17 +71,6 @@
                     "access": "public",
                     "arguments": [
                         {
-                            "name": "factor",
-                            "type": "double"
-                        }
-                    ],
-                    "name": "scaleImage",
-                    "returnType": "void"
-                },
-                {
-                    "access": "public",
-                    "arguments": [
-                        {
                             "name": "alpha",
                             "type": "double"
                         },
@@ -595,6 +584,55 @@
                     "access": "public",
                     "arguments": [
                         {
+                            "name": "thresh",
+                            "type": "double"
+                        }
+                    ],
+                    "name": "akazeDetection",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "matchingType",
+                            "type": "int"
+                        },
+                        {
+                            "name": "tempPath",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "thresh",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "featuresMatching",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "matchingType",
+                            "type": "int"
+                        },
+                        {
+                            "name": "tempPath",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "thresh",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "featuresDetecting",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
                             "name": "cannyThres",
                             "type": "int"
                         },
@@ -663,7 +701,7 @@
                             "type": "int"
                         },
                         {
-                            "name": "contour",
+                            "name": "contourType",
                             "type": "int"
                         }
                     ],
@@ -672,8 +710,41 @@
                 },
                 {
                     "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "r",
+                            "type": "int"
+                        },
+                        {
+                            "name": "g",
+                            "type": "int"
+                        },
+                        {
+                            "name": "b",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "iconColor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
                     "name": "showInfo",
                     "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "appendImg",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "refresh",
+                    "returnType": "void"
                 }
             ],
             "object": true,

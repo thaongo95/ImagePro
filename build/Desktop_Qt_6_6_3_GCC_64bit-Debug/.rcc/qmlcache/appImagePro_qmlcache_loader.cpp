@@ -306,7 +306,7 @@ namespace _qt_qml_ImagePro_features2D_ShiTomasi_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _qt_qml_ImagePro_features2D_FeaturesDescription_qml { 
+namespace _qt_qml_ImagePro_features2D_FeaturesDetecting_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -328,6 +328,20 @@ namespace _qt_qml_ImagePro_features2D_ORB_qml {
     };
 }
 namespace _qt_qml_ImagePro_features2D_AKAZE_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_ImagePro_features2D_FeaturesStitching_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_ImagePro_functions_IconColor_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -391,10 +405,12 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ImagePro/features2D/Custom.qml"), &QmlCacheGeneratedCode::_qt_qml_ImagePro_features2D_Custom_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ImagePro/features2D/HarrisCorner.qml"), &QmlCacheGeneratedCode::_qt_qml_ImagePro_features2D_HarrisCorner_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ImagePro/features2D/ShiTomasi.qml"), &QmlCacheGeneratedCode::_qt_qml_ImagePro_features2D_ShiTomasi_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ImagePro/features2D/FeaturesDescription.qml"), &QmlCacheGeneratedCode::_qt_qml_ImagePro_features2D_FeaturesDescription_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ImagePro/features2D/FeaturesDetecting.qml"), &QmlCacheGeneratedCode::_qt_qml_ImagePro_features2D_FeaturesDetecting_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ImagePro/features2D/FeaturesMatching.qml"), &QmlCacheGeneratedCode::_qt_qml_ImagePro_features2D_FeaturesMatching_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ImagePro/features2D/ORB.qml"), &QmlCacheGeneratedCode::_qt_qml_ImagePro_features2D_ORB_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ImagePro/features2D/AKAZE.qml"), &QmlCacheGeneratedCode::_qt_qml_ImagePro_features2D_AKAZE_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ImagePro/features2D/FeaturesStitching.qml"), &QmlCacheGeneratedCode::_qt_qml_ImagePro_features2D_FeaturesStitching_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ImagePro/functions/IconColor.qml"), &QmlCacheGeneratedCode::_qt_qml_ImagePro_functions_IconColor_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

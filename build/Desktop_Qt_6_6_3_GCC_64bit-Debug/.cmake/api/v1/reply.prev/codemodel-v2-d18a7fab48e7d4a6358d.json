@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-2ff4c3b2d16e6570cebc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ImagePro",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-251a5a50dee12422548f.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-3a1ccdc0bd57c992fd61.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-820f8633ddc6691256a8.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-2bf7c320a5fbce12b5af.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImagePro::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImagePro-Debug-40c153601b3e8206f9d7.json",
+					"name" : "appImagePro",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImagePro_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImagePro_autogen-Debug-f91a8f9be28947f50159.json",
+					"name" : "appImagePro_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImagePro_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImagePro_autogen_timestamp_deps-Debug-87c0442b5e111366e668.json",
+					"name" : "appImagePro_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImagePro_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImagePro_qmlimportscan-Debug-40e5e647e180cba36b55.json",
+					"name" : "appImagePro_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImagePro_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImagePro_qmllint-Debug-772a68c0d2d700d60dee.json",
+					"name" : "appImagePro_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImagePro_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImagePro_qmllint_json-Debug-29f37267ccc00b4879b8.json",
+					"name" : "appImagePro_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImagePro_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImagePro_qmllint_module-Debug-8f1a792c0e9524de5a7b.json",
+					"name" : "appImagePro_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImagePro_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImagePro_qmltyperegistration-Debug-20cda39d70e2ad3e1940.json",
+					"name" : "appImagePro_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImagePro_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImagePro_tooling-Debug-2ee75ffbcf0a42d6a3cf.json",
+					"name" : "appImagePro_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug",
+		"source" : "/home/b6/Works/ImagePro"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

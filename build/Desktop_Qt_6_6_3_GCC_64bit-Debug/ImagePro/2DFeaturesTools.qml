@@ -15,10 +15,10 @@ Item{
         {label: "Subpix", source: "assets/icons/avocado.png", color: "#f08080", sourcefile: "features2D/Subpix.qml"},
         {label: "SIFT", source: "assets/icons/watermelon.png", color: "#4169e1", sourcefile: "features2D/SIFT.qml"},
         {label: "ORB", source: "assets/icons/pineapple.png", color: "#f08080", sourcefile: "features2D/ORB.qml"},
-        {label: "F-Description", source: "assets/icons/olive.png", color: "#daa520", sourcefile: "features2D/FeaturesDescription.qml"},
-        {label: "F-Matching", source: "assets/icons/fruits.png", color: "#daa520", sourcefile: "features2D/FeaturesMatching.qml"},
         {label: "AKAZE", source: "assets/icons/strawberry.png", color: "#7fffd4", sourcefile: "features2D/AKAZE.qml"},
-        {label: "Feature Detect", source: "assets/icons/almond.png", color: "#daa520", sourcefile: "features2D/FeatureDetection.qml"}]
+        {label: "Matching", source: "assets/icons/olive.png", color: "#daa520", sourcefile: "features2D/FeaturesMatching.qml"},
+        {label: "Detecting", source: "assets/icons/fruits.png", color: "#daa520", sourcefile: "features2D/FeaturesDetecting.qml"},
+        {label: "Stitching", source: "assets/icons/almond.png", color: "#daa520", sourcefile: "features2D/FeaturesStitching.qml"}]
         delegate: Rectangle{
             height: parent.height*3/4
             anchors.verticalCenter: parent.verticalCenter

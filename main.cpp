@@ -5,7 +5,7 @@
 #include <QQmlContext>
 #include "imageprovider.h"
 #include "imagecontroller.h"
-#include "style.h"
+
 
 int main(int argc, char *argv[])
 {
@@ -18,8 +18,6 @@ int main(int argc, char *argv[])
     ImageController controller(provider);
     engine.rootContext()->setContextProperty("cvController", &controller);
 
-    Style style;
-    engine.rootContext()->setContextProperty("systemStyle", &style);
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,

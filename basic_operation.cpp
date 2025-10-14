@@ -1,7 +1,5 @@
 #include "basic_operation.h"
 
-
-
 cv::Mat exposure(const cv::Mat &image, const double &alpha, const int &beta)
 {
     cv::Mat newImage = cv::Mat::zeros(image.size(), image.type());
@@ -92,3 +90,4 @@ cv::Mat color_detection(const cv::Mat& object, const double& erea_threshold, con
     }
     return img;
 }
+

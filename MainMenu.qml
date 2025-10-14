@@ -3,7 +3,7 @@ import QtQuick.Controls
 import QtQuick.Layouts
 Rectangle{
     id: _root
-    color: systemStyle.toolbarColor
+    color: "#8fbc8f"
     property int selectedIndex: 0
     Row{
         anchors.fill: parent

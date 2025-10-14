@@ -45,7 +45,9 @@
 /qt/qml/ImagePro/features2D/Custom.qml
 /qt/qml/ImagePro/features2D/HarrisCorner.qml
 /qt/qml/ImagePro/features2D/ShiTomasi.qml
-/qt/qml/ImagePro/features2D/FeaturesDescription.qml
+/qt/qml/ImagePro/features2D/FeaturesDetecting.qml
 /qt/qml/ImagePro/features2D/FeaturesMatching.qml
 /qt/qml/ImagePro/features2D/ORB.qml
 /qt/qml/ImagePro/features2D/AKAZE.qml
+/qt/qml/ImagePro/features2D/FeaturesStitching.qml
+/qt/qml/ImagePro/functions/IconColor.qml

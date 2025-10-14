@@ -1,6 +1,7 @@
 #pragma once
 #include <QObject>
 #include "imageprovider.h"
+#include "basic_operation.h"
 
 class ImageController : public QObject {
     Q_OBJECT
@@ -11,8 +12,6 @@ public:
     Q_INVOKABLE QString getIntensity(int x,  int y);
     Q_INVOKABLE void createImage(int width, int height, int red, int green, int blue);
     Q_INVOKABLE void saveImage(const QString &filePath);
-    Q_INVOKABLE void scaleImage(double factor);
-
 
     Q_INVOKABLE void basicExposure(const double& alpha, const int& beta);
     Q_INVOKABLE void gammaCorrect(const double& gammaValue);
@@ -47,18 +46,28 @@ public:
     Q_INVOKABLE QString subpix(const int& max_corners);
     Q_INVOKABLE void siftDetection(const int& nfeatures, const double& contrastThre);
     Q_INVOKABLE void orbDetection(const int& nfeatures, const double& fastThre);
+    Q_INVOKABLE void akazeDetection(const double& thresh);
+    Q_INVOKABLE void featuresMatching(const int& matchingType, const QString &tempPath, const int& thresh);
+    Q_INVOKABLE void featuresDetecting(const int& matchingType, const QString &tempPath, const int& thresh);
 
     Q_INVOKABLE void drawEgde(const int& cannyThres, const int& colorType);
     Q_INVOKABLE void convexHull(const int& cannyThres, const int& colorType);
     Q_INVOKABLE void drawShape(const int& cannyThres, const int& colorType, const int& shapeID);
     Q_INVOKABLE void moment(const int& cannyThres, const int& colorType);
-    Q_INVOKABLE void point_test(const int& cannyThres, const int& contour);
+    Q_INVOKABLE void point_test(const int& cannyThres, const int& contourType);
 
-    Q_INVOKABLE QString showInfo();
+    Q_INVOKABLE void iconColor(const QString& path, const int& r, const int& g,const int& b);
+
+    Q_INVOKABLE QString showInfo(){return image_info;}
+    Q_INVOKABLE void appendImg();
+    Q_INVOKABLE void refresh();
 
 
 private:
     CvImageProvider* m_provider;
+    cv::Mat m_original, m_current, m_temp;
+    std::vector<cv::Mat> history;
+    QString image_info;
 };
 
 

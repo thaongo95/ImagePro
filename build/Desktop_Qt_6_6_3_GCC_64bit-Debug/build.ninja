@@ -47,7 +47,7 @@ cmake_ninja_workdir = /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-D
 #############################################
 # Order-only phony target for appImagePro
 
-build cmake_object_order_depends_target_appImagePro: phony || .rcc/qmlcache/appImagePro_2DFeaturesTools_qml.cpp .rcc/qmlcache/appImagePro_AdvancedTools_qml.cpp .rcc/qmlcache/appImagePro_BasicTools_qml.cpp .rcc/qmlcache/appImagePro_ContoursTools_qml.cpp .rcc/qmlcache/appImagePro_FunctionsTools_qml.cpp .rcc/qmlcache/appImagePro_LeftView_qml.cpp .rcc/qmlcache/appImagePro_MainMenu_qml.cpp .rcc/qmlcache/appImagePro_MainToolBar_qml.cpp .rcc/qmlcache/appImagePro_Main_qml.cpp .rcc/qmlcache/appImagePro_RightView_qml.cpp .rcc/qmlcache/appImagePro_TransformationsTools_qml.cpp .rcc/qmlcache/appImagePro_basic/ColorDetection_qml.cpp .rcc/qmlcache/appImagePro_basic/Contrast_qml.cpp .rcc/qmlcache/appImagePro_basic/Convert_qml.cpp .rcc/qmlcache/appImagePro_basic/ErodeDilate_qml.cpp .rcc/qmlcache/appImagePro_basic/Exposure_qml.cpp .rcc/qmlcache/appImagePro_basic/ExtractLines_qml.cpp .rcc/qmlcache/appImagePro_basic/Gamma_qml.cpp .rcc/qmlcache/appImagePro_basic/InRange_qml.cpp .rcc/qmlcache/appImagePro_basic/Morphology_qml.cpp .rcc/qmlcache/appImagePro_basic/Smoothing_qml.cpp .rcc/qmlcache/appImagePro_basic/TemplateMatching_qml.cpp .rcc/qmlcache/appImagePro_basic/Threshold_qml.cpp .rcc/qmlcache/appImagePro_contours/ConvexHull_qml.cpp .rcc/qmlcache/appImagePro_contours/DrawEgde_qml.cpp .rcc/qmlcache/appImagePro_contours/DrawShape_qml.cpp .rcc/qmlcache/appImagePro_contours/Moments_qml.cpp .rcc/qmlcache/appImagePro_contours/PointPolygon_qml.cpp .rcc/qmlcache/appImagePro_features2D/AKAZE_qml.cpp .rcc/qmlcache/appImagePro_features2D/Custom_qml.cpp .rcc/qmlcache/appImagePro_features2D/FeaturesDescription_qml.cpp .rcc/qmlcache/appImagePro_features2D/FeaturesMatching_qml.cpp .rcc/qmlcache/appImagePro_features2D/HarrisCorner_qml.cpp .rcc/qmlcache/appImagePro_features2D/ORB_qml.cpp .rcc/qmlcache/appImagePro_features2D/SIFT_qml.cpp .rcc/qmlcache/appImagePro_features2D/ShiTomasi_qml.cpp .rcc/qmlcache/appImagePro_features2D/Subpix_qml.cpp .rcc/qmlcache/appImagePro_qmlcache_loader.cpp .rcc/qmlcache/appImagePro_transformations/Affine_qml.cpp .rcc/qmlcache/appImagePro_transformations/Canny_qml.cpp .rcc/qmlcache/appImagePro_transformations/Filter2D_qml.cpp .rcc/qmlcache/appImagePro_transformations/GuilHough_qml.cpp .rcc/qmlcache/appImagePro_transformations/HoughCircle_qml.cpp .rcc/qmlcache/appImagePro_transformations/HoughLine_qml.cpp .rcc/qmlcache/appImagePro_transformations/Laplacian_qml.cpp .rcc/qmlcache/appImagePro_transformations/Remap_qml.cpp .rcc/qmlcache/appImagePro_transformations/Rotation_qml.cpp .rcc/qmlcache/appImagePro_transformations/Sobel_qml.cpp .rcc/qrc_appImagePro_raw_qml_0.cpp .rcc/qrc_qmake_ImagePro.cpp ImagePro/appImagePro.qmltypes appImagePro_autogen appImagePro_autogen/mocs_compilation.cpp appImagePro_autogen/timestamp appImagePro_autogen_timestamp_deps appImagePro_qmlimportscan appImagePro_tooling appimagepro_qmltyperegistrations.cpp meta_types/appImagePro_json_file_list.txt meta_types/appImagePro_json_file_list.txt.timestamp meta_types/qt6appimagepro_debug_metatypes.json meta_types/qt6appimagepro_debug_metatypes.json.gen
+build cmake_object_order_depends_target_appImagePro: phony || .rcc/qmlcache/appImagePro_2DFeaturesTools_qml.cpp .rcc/qmlcache/appImagePro_AdvancedTools_qml.cpp .rcc/qmlcache/appImagePro_BasicTools_qml.cpp .rcc/qmlcache/appImagePro_ContoursTools_qml.cpp .rcc/qmlcache/appImagePro_FunctionsTools_qml.cpp .rcc/qmlcache/appImagePro_LeftView_qml.cpp .rcc/qmlcache/appImagePro_MainMenu_qml.cpp .rcc/qmlcache/appImagePro_MainToolBar_qml.cpp .rcc/qmlcache/appImagePro_Main_qml.cpp .rcc/qmlcache/appImagePro_RightView_qml.cpp .rcc/qmlcache/appImagePro_TransformationsTools_qml.cpp .rcc/qmlcache/appImagePro_basic/ColorDetection_qml.cpp .rcc/qmlcache/appImagePro_basic/Contrast_qml.cpp .rcc/qmlcache/appImagePro_basic/Convert_qml.cpp .rcc/qmlcache/appImagePro_basic/ErodeDilate_qml.cpp .rcc/qmlcache/appImagePro_basic/Exposure_qml.cpp .rcc/qmlcache/appImagePro_basic/ExtractLines_qml.cpp .rcc/qmlcache/appImagePro_basic/Gamma_qml.cpp .rcc/qmlcache/appImagePro_basic/InRange_qml.cpp .rcc/qmlcache/appImagePro_basic/Morphology_qml.cpp .rcc/qmlcache/appImagePro_basic/Smoothing_qml.cpp .rcc/qmlcache/appImagePro_basic/TemplateMatching_qml.cpp .rcc/qmlcache/appImagePro_basic/Threshold_qml.cpp .rcc/qmlcache/appImagePro_contours/ConvexHull_qml.cpp .rcc/qmlcache/appImagePro_contours/DrawEgde_qml.cpp .rcc/qmlcache/appImagePro_contours/DrawShape_qml.cpp .rcc/qmlcache/appImagePro_contours/Moments_qml.cpp .rcc/qmlcache/appImagePro_contours/PointPolygon_qml.cpp .rcc/qmlcache/appImagePro_features2D/AKAZE_qml.cpp .rcc/qmlcache/appImagePro_features2D/Custom_qml.cpp .rcc/qmlcache/appImagePro_features2D/FeaturesDetecting_qml.cpp .rcc/qmlcache/appImagePro_features2D/FeaturesMatching_qml.cpp .rcc/qmlcache/appImagePro_features2D/FeaturesStitching_qml.cpp .rcc/qmlcache/appImagePro_features2D/HarrisCorner_qml.cpp .rcc/qmlcache/appImagePro_features2D/ORB_qml.cpp .rcc/qmlcache/appImagePro_features2D/SIFT_qml.cpp .rcc/qmlcache/appImagePro_features2D/ShiTomasi_qml.cpp .rcc/qmlcache/appImagePro_features2D/Subpix_qml.cpp .rcc/qmlcache/appImagePro_functions/IconColor_qml.cpp .rcc/qmlcache/appImagePro_qmlcache_loader.cpp .rcc/qmlcache/appImagePro_transformations/Affine_qml.cpp .rcc/qmlcache/appImagePro_transformations/Canny_qml.cpp .rcc/qmlcache/appImagePro_transformations/Filter2D_qml.cpp .rcc/qmlcache/appImagePro_transformations/GuilHough_qml.cpp .rcc/qmlcache/appImagePro_transformations/HoughCircle_qml.cpp .rcc/qmlcache/appImagePro_transformations/HoughLine_qml.cpp .rcc/qmlcache/appImagePro_transformations/Laplacian_qml.cpp .rcc/qmlcache/appImagePro_transformations/Remap_qml.cpp .rcc/qmlcache/appImagePro_transformations/Rotation_qml.cpp .rcc/qmlcache/appImagePro_transformations/Sobel_qml.cpp .rcc/qrc_appImagePro_raw_qml_0.cpp .rcc/qrc_qmake_ImagePro.cpp ImagePro/appImagePro.qmltypes appImagePro_autogen appImagePro_autogen/mocs_compilation.cpp appImagePro_autogen/timestamp appImagePro_autogen_timestamp_deps appImagePro_qmlimportscan appImagePro_tooling appimagepro_qmltyperegistrations.cpp meta_types/appImagePro_json_file_list.txt meta_types/appImagePro_json_file_list.txt.timestamp meta_types/qt6appimagepro_debug_metatypes.json meta_types/qt6appimagepro_debug_metatypes.json.gen
 
 build CMakeFiles/appImagePro.dir/appImagePro_autogen/mocs_compilation.cpp.o: CXX_COMPILER__appImagePro_unscanned_Debug /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appImagePro_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appImagePro
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
@@ -81,14 +81,6 @@ build CMakeFiles/appImagePro.dir/imagecontroller.cpp.o: CXX_COMPILER__appImagePr
   OBJECT_DIR = CMakeFiles/appImagePro.dir
   OBJECT_FILE_DIR = CMakeFiles/appImagePro.dir
 
-build CMakeFiles/appImagePro.dir/imageinfo.cpp.o: CXX_COMPILER__appImagePro_unscanned_Debug /home/b6/Works/ImagePro/imageinfo.cpp || cmake_object_order_depends_target_appImagePro
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
-  DEP_FILE = CMakeFiles/appImagePro.dir/imageinfo.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appImagePro_autogen/include -I/home/b6/Works/ImagePro -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include -isystem /home/b6/Qt/6.6.3/gcc_64/mkspecs/linux-g++ -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlIntegration -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtNetwork -isystem /usr/local/include/opencv4 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQuick -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtGui -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlModels -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtOpenGL
-  OBJECT_DIR = CMakeFiles/appImagePro.dir
-  OBJECT_FILE_DIR = CMakeFiles/appImagePro.dir
-
 build CMakeFiles/appImagePro.dir/appimagepro_qmltyperegistrations.cpp.o: CXX_COMPILER__appImagePro_unscanned_Debug /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appimagepro_qmltyperegistrations.cpp || cmake_object_order_depends_target_appImagePro
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/appImagePro.dir/appimagepro_qmltyperegistrations.cpp.o.d
@@ -104,30 +96,6 @@ build CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qrc
   INCLUDES = -I/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appImagePro_autogen/include -I/home/b6/Works/ImagePro -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include -isystem /home/b6/Qt/6.6.3/gcc_64/mkspecs/linux-g++ -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlIntegration -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtNetwork -isystem /usr/local/include/opencv4 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQuick -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtGui -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlModels -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles/appImagePro.dir
   OBJECT_FILE_DIR = CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc
-
-build CMakeFiles/appImagePro.dir/style.cpp.o: CXX_COMPILER__appImagePro_unscanned_Debug /home/b6/Works/ImagePro/style.cpp || cmake_object_order_depends_target_appImagePro
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
-  DEP_FILE = CMakeFiles/appImagePro.dir/style.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appImagePro_autogen/include -I/home/b6/Works/ImagePro -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include -isystem /home/b6/Qt/6.6.3/gcc_64/mkspecs/linux-g++ -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlIntegration -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtNetwork -isystem /usr/local/include/opencv4 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQuick -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtGui -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlModels -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtOpenGL
-  OBJECT_DIR = CMakeFiles/appImagePro.dir
-  OBJECT_FILE_DIR = CMakeFiles/appImagePro.dir
-
-build CMakeFiles/appImagePro.dir/image_function.cpp.o: CXX_COMPILER__appImagePro_unscanned_Debug /home/b6/Works/ImagePro/image_function.cpp || cmake_object_order_depends_target_appImagePro
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
-  DEP_FILE = CMakeFiles/appImagePro.dir/image_function.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appImagePro_autogen/include -I/home/b6/Works/ImagePro -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include -isystem /home/b6/Qt/6.6.3/gcc_64/mkspecs/linux-g++ -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlIntegration -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtNetwork -isystem /usr/local/include/opencv4 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQuick -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtGui -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlModels -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtOpenGL
-  OBJECT_DIR = CMakeFiles/appImagePro.dir
-  OBJECT_FILE_DIR = CMakeFiles/appImagePro.dir
-
-build CMakeFiles/appImagePro.dir/app_tools.cpp.o: CXX_COMPILER__appImagePro_unscanned_Debug /home/b6/Works/ImagePro/app_tools.cpp || cmake_object_order_depends_target_appImagePro
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
-  DEP_FILE = CMakeFiles/appImagePro.dir/app_tools.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appImagePro_autogen/include -I/home/b6/Works/ImagePro -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include -isystem /home/b6/Qt/6.6.3/gcc_64/mkspecs/linux-g++ -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlIntegration -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtNetwork -isystem /usr/local/include/opencv4 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQuick -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtGui -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlModels -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtOpenGL
-  OBJECT_DIR = CMakeFiles/appImagePro.dir
-  OBJECT_FILE_DIR = CMakeFiles/appImagePro.dir
 
 build CMakeFiles/appImagePro.dir/basic_operation.cpp.o: CXX_COMPILER__appImagePro_unscanned_Debug /home/b6/Works/ImagePro/basic_operation.cpp || cmake_object_order_depends_target_appImagePro
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
@@ -489,9 +457,9 @@ build CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qml
   OBJECT_DIR = CMakeFiles/appImagePro.dir
   OBJECT_FILE_DIR = CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D
 
-build CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesDescription_qml.cpp.o: CXX_COMPILER__appImagePro_unscanned_Debug /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesDescription_qml.cpp || cmake_object_order_depends_target_appImagePro
+build CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesDetecting_qml.cpp.o: CXX_COMPILER__appImagePro_unscanned_Debug /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesDetecting_qml.cpp || cmake_object_order_depends_target_appImagePro
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
-  DEP_FILE = CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesDescription_qml.cpp.o.d
+  DEP_FILE = CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesDetecting_qml.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appImagePro_autogen/include -I/home/b6/Works/ImagePro -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include -isystem /home/b6/Qt/6.6.3/gcc_64/mkspecs/linux-g++ -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlIntegration -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtNetwork -isystem /usr/local/include/opencv4 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQuick -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtGui -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlModels -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles/appImagePro.dir
@@ -521,6 +489,22 @@ build CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qml
   OBJECT_DIR = CMakeFiles/appImagePro.dir
   OBJECT_FILE_DIR = CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D
 
+build CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesStitching_qml.cpp.o: CXX_COMPILER__appImagePro_unscanned_Debug /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesStitching_qml.cpp || cmake_object_order_depends_target_appImagePro
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesStitching_qml.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appImagePro_autogen/include -I/home/b6/Works/ImagePro -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include -isystem /home/b6/Qt/6.6.3/gcc_64/mkspecs/linux-g++ -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlIntegration -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtNetwork -isystem /usr/local/include/opencv4 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQuick -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtGui -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlModels -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles/appImagePro.dir
+  OBJECT_FILE_DIR = CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D
+
+build CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_functions/IconColor_qml.cpp.o: CXX_COMPILER__appImagePro_unscanned_Debug /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_functions/IconColor_qml.cpp || cmake_object_order_depends_target_appImagePro
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_functions/IconColor_qml.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appImagePro_autogen/include -I/home/b6/Works/ImagePro -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml/6.6.3/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore/6.6.3/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtCore -isystem /home/b6/Qt/6.6.3/gcc_64/include -isystem /home/b6/Qt/6.6.3/gcc_64/mkspecs/linux-g++ -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQml -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlIntegration -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtNetwork -isystem /usr/local/include/opencv4 -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQuick -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtGui -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtQmlModels -isystem /home/b6/Qt/6.6.3/gcc_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles/appImagePro.dir
+  OBJECT_FILE_DIR = CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_functions
+
 build CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qrc_appImagePro_raw_qml_0.cpp.o: CXX_COMPILER__appImagePro_unscanned_Debug /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qrc_appImagePro_raw_qml_0.cpp || cmake_object_order_depends_target_appImagePro
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qrc_appImagePro_raw_qml_0.cpp.o.d
@@ -537,7 +521,7 @@ build CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qrc
 #############################################
 # Link the executable appImagePro
 
-build appImagePro: CXX_EXECUTABLE_LINKER__appImagePro_Debug CMakeFiles/appImagePro.dir/appImagePro_autogen/mocs_compilation.cpp.o CMakeFiles/appImagePro.dir/main.cpp.o CMakeFiles/appImagePro.dir/imageprovider.cpp.o CMakeFiles/appImagePro.dir/imagecontroller.cpp.o CMakeFiles/appImagePro.dir/imageinfo.cpp.o CMakeFiles/appImagePro.dir/appimagepro_qmltyperegistrations.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qrc_qmake_ImagePro.cpp.o CMakeFiles/appImagePro.dir/style.cpp.o CMakeFiles/appImagePro.dir/image_function.cpp.o CMakeFiles/appImagePro.dir/app_tools.cpp.o CMakeFiles/appImagePro.dir/basic_operation.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_qmlcache_loader.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_Main_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_MainMenu_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_MainToolBar_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_LeftView_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_RightView_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_AdvancedTools_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_2DFeaturesTools_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_BasicTools_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_FunctionsTools_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_ContoursTools_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_TransformationsTools_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/Exposure_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/Gamma_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/Smoothing_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/Morphology_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/ErodeDilate_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/ExtractLines_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/Threshold_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/InRange_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Canny_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/Convert_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/ColorDetection_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Filter2D_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Rotation_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Sobel_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Laplacian_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/HoughLine_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/HoughCircle_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/GuilHough_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Remap_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Affine_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_contours/DrawEgde_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_contours/DrawShape_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_contours/ConvexHull_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_contours/Moments_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_contours/PointPolygon_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/Contrast_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/TemplateMatching_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/SIFT_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/Subpix_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/Custom_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/HarrisCorner_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/ShiTomasi_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesDescription_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesMatching_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/ORB_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/AKAZE_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qrc_appImagePro_raw_qml_0.cpp.o | /home/b6/Qt/6.6.3/gcc_64/lib/libQt6Quick.so.6.6.3 /usr/local/lib/libopencv_gapi.so.4.12.0 /usr/local/lib/libopencv_highgui.so.4.12.0 /usr/local/lib/libopencv_ml.so.4.12.0 /usr/local/lib/libopencv_objdetect.so.4.12.0 /usr/local/lib/libopencv_photo.so.4.12.0 /usr/local/lib/libopencv_stitching.so.4.12.0 /usr/local/lib/libopencv_video.so.4.12.0 /usr/local/lib/libopencv_videoio.so.4.12.0 /home/b6/Qt/6.6.3/gcc_64/lib/libQt6QmlModels.so.6.6.3 /home/b6/Qt/6.6.3/gcc_64/lib/libQt6Qml.so.6.6.3 /home/b6/Qt/6.6.3/gcc_64/lib/libQt6Network.so.6.6.3 /home/b6/Qt/6.6.3/gcc_64/lib/libQt6OpenGL.so.6.6.3 /home/b6/Qt/6.6.3/gcc_64/lib/libQt6Gui.so.6.6.3 /home/b6/Qt/6.6.3/gcc_64/lib/libQt6Core.so.6.6.3 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/local/lib/libopencv_imgcodecs.so.4.12.0 /usr/local/lib/libopencv_dnn.so.4.12.0 /usr/local/lib/libopencv_calib3d.so.4.12.0 /usr/local/lib/libopencv_features2d.so.4.12.0 /usr/local/lib/libopencv_flann.so.4.12.0 /usr/local/lib/libopencv_imgproc.so.4.12.0 /usr/local/lib/libopencv_core.so.4.12.0 || appImagePro_autogen appImagePro_autogen_timestamp_deps appImagePro_qmlimportscan appImagePro_tooling
+build appImagePro: CXX_EXECUTABLE_LINKER__appImagePro_Debug CMakeFiles/appImagePro.dir/appImagePro_autogen/mocs_compilation.cpp.o CMakeFiles/appImagePro.dir/main.cpp.o CMakeFiles/appImagePro.dir/imageprovider.cpp.o CMakeFiles/appImagePro.dir/imagecontroller.cpp.o CMakeFiles/appImagePro.dir/appimagepro_qmltyperegistrations.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qrc_qmake_ImagePro.cpp.o CMakeFiles/appImagePro.dir/basic_operation.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_qmlcache_loader.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_Main_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_MainMenu_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_MainToolBar_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_LeftView_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_RightView_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_AdvancedTools_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_2DFeaturesTools_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_BasicTools_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_FunctionsTools_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_ContoursTools_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_TransformationsTools_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/Exposure_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/Gamma_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/Smoothing_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/Morphology_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/ErodeDilate_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/ExtractLines_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/Threshold_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/InRange_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Canny_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/Convert_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/ColorDetection_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Filter2D_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Rotation_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Sobel_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Laplacian_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/HoughLine_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/HoughCircle_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/GuilHough_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Remap_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_transformations/Affine_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_contours/DrawEgde_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_contours/DrawShape_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_contours/ConvexHull_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_contours/Moments_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_contours/PointPolygon_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/Contrast_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_basic/TemplateMatching_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/SIFT_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/Subpix_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/Custom_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/HarrisCorner_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/ShiTomasi_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesDetecting_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesMatching_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/ORB_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/AKAZE_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesStitching_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_functions/IconColor_qml.cpp.o CMakeFiles/appImagePro.dir/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qrc_appImagePro_raw_qml_0.cpp.o | /home/b6/Qt/6.6.3/gcc_64/lib/libQt6Quick.so.6.6.3 /usr/local/lib/libopencv_gapi.so.4.12.0 /usr/local/lib/libopencv_highgui.so.4.12.0 /usr/local/lib/libopencv_ml.so.4.12.0 /usr/local/lib/libopencv_objdetect.so.4.12.0 /usr/local/lib/libopencv_photo.so.4.12.0 /usr/local/lib/libopencv_stitching.so.4.12.0 /usr/local/lib/libopencv_video.so.4.12.0 /usr/local/lib/libopencv_videoio.so.4.12.0 /home/b6/Qt/6.6.3/gcc_64/lib/libQt6QmlModels.so.6.6.3 /home/b6/Qt/6.6.3/gcc_64/lib/libQt6Qml.so.6.6.3 /home/b6/Qt/6.6.3/gcc_64/lib/libQt6Network.so.6.6.3 /home/b6/Qt/6.6.3/gcc_64/lib/libQt6OpenGL.so.6.6.3 /home/b6/Qt/6.6.3/gcc_64/lib/libQt6Gui.so.6.6.3 /home/b6/Qt/6.6.3/gcc_64/lib/libQt6Core.so.6.6.3 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/local/lib/libopencv_imgcodecs.so.4.12.0 /usr/local/lib/libopencv_dnn.so.4.12.0 /usr/local/lib/libopencv_calib3d.so.4.12.0 /usr/local/lib/libopencv_features2d.so.4.12.0 /usr/local/lib/libopencv_flann.so.4.12.0 /usr/local/lib/libopencv_imgproc.so.4.12.0 /usr/local/lib/libopencv_core.so.4.12.0 || appImagePro_autogen appImagePro_autogen_timestamp_deps appImagePro_qmlimportscan appImagePro_tooling
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -Wl,-rpath,/home/b6/Qt/6.6.3/gcc_64/lib:/usr/local/lib:  /home/b6/Qt/6.6.3/gcc_64/lib/libQt6Quick.so.6.6.3  /usr/local/lib/libopencv_gapi.so.4.12.0  /usr/local/lib/libopencv_highgui.so.4.12.0  /usr/local/lib/libopencv_ml.so.4.12.0  /usr/local/lib/libopencv_objdetect.so.4.12.0  /usr/local/lib/libopencv_photo.so.4.12.0  /usr/local/lib/libopencv_stitching.so.4.12.0  /usr/local/lib/libopencv_video.so.4.12.0  /usr/local/lib/libopencv_videoio.so.4.12.0  /home/b6/Qt/6.6.3/gcc_64/lib/libQt6QmlModels.so.6.6.3  /home/b6/Qt/6.6.3/gcc_64/lib/libQt6Qml.so.6.6.3  /home/b6/Qt/6.6.3/gcc_64/lib/libQt6Network.so.6.6.3  /home/b6/Qt/6.6.3/gcc_64/lib/libQt6OpenGL.so.6.6.3  /home/b6/Qt/6.6.3/gcc_64/lib/libQt6Gui.so.6.6.3  /home/b6/Qt/6.6.3/gcc_64/lib/libQt6Core.so.6.6.3  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so  /usr/local/lib/libopencv_imgcodecs.so.4.12.0  /usr/local/lib/libopencv_dnn.so.4.12.0  /usr/local/lib/libopencv_calib3d.so.4.12.0  /usr/local/lib/libopencv_features2d.so.4.12.0  /usr/local/lib/libopencv_flann.so.4.12.0  /usr/local/lib/libopencv_imgproc.so.4.12.0  /usr/local/lib/libopencv_core.so.4.12.0
   OBJECT_DIR = CMakeFiles/appImagePro.dir
@@ -598,7 +582,7 @@ build all_qmllint_module: phony appImagePro_qmllint_module
 #############################################
 # Utility command for appImagePro_tooling
 
-build appImagePro_tooling: phony ImagePro/Main.qml ImagePro/MainMenu.qml ImagePro/MainToolBar.qml ImagePro/LeftView.qml ImagePro/RightView.qml ImagePro/AdvancedTools.qml ImagePro/2DFeaturesTools.qml ImagePro/BasicTools.qml ImagePro/FunctionsTools.qml ImagePro/ContoursTools.qml ImagePro/TransformationsTools.qml ImagePro/basic/Exposure.qml ImagePro/basic/Gamma.qml ImagePro/basic/Smoothing.qml ImagePro/basic/Morphology.qml ImagePro/basic/ErodeDilate.qml ImagePro/basic/ExtractLines.qml ImagePro/basic/Threshold.qml ImagePro/basic/InRange.qml ImagePro/transformations/Canny.qml ImagePro/basic/Convert.qml ImagePro/basic/ColorDetection.qml ImagePro/transformations/Filter2D.qml ImagePro/transformations/Rotation.qml ImagePro/transformations/Sobel.qml ImagePro/transformations/Laplacian.qml ImagePro/transformations/HoughLine.qml ImagePro/transformations/HoughCircle.qml ImagePro/transformations/GuilHough.qml ImagePro/transformations/Remap.qml ImagePro/transformations/Affine.qml ImagePro/contours/DrawEgde.qml ImagePro/contours/DrawShape.qml ImagePro/contours/ConvexHull.qml ImagePro/contours/Moments.qml ImagePro/contours/PointPolygon.qml ImagePro/basic/Contrast.qml ImagePro/basic/TemplateMatching.qml ImagePro/features2D/SIFT.qml ImagePro/features2D/Subpix.qml ImagePro/features2D/Custom.qml ImagePro/features2D/HarrisCorner.qml ImagePro/features2D/ShiTomasi.qml ImagePro/features2D/FeaturesDescription.qml ImagePro/features2D/FeaturesMatching.qml ImagePro/features2D/ORB.qml ImagePro/features2D/AKAZE.qml ImagePro/assets/images/aerial.png ImagePro/assets/images/anh1.jpg ImagePro/assets/images/anh2.jpg ImagePro/assets/images/anh3.jpg ImagePro/assets/images/anh4.jpg ImagePro/assets/images/cards.jpg ImagePro/assets/images/clock.png ImagePro/assets/images/drone.png ImagePro/assets/images/FPV.jpg ImagePro/assets/images/FPV.png ImagePro/assets/images/fpv.png ImagePro/assets/images/front.jpg ImagePro/assets/images/generalized_hough_image.jpg ImagePro/assets/images/generalized_hough_mini_image.jpg ImagePro/assets/images/generalized_hough_mini_template.jpg ImagePro/assets/images/generalized_hough_template.jpg ImagePro/assets/images/home.png ImagePro/assets/images/lambo.png ImagePro/assets/images/letter-p.png ImagePro/assets/images/letter-r.png ImagePro/assets/images/letter-y.png ImagePro/assets/images/list-white.png ImagePro/assets/images/location-marker-white.png ImagePro/assets/images/log-file-white.png ImagePro/assets/images/map.png ImagePro/assets/images/map2d.png ImagePro/assets/images/measure-white.png ImagePro/assets/images/origin.jpg ImagePro/assets/images/paper-plane-white.png ImagePro/assets/images/paper.jpg ImagePro/assets/images/placeholder.png ImagePro/assets/images/productPageTitle-uav-4-1.png ImagePro/assets/images/productPageTitle-uav-4-2.png ImagePro/assets/images/road.png ImagePro/assets/images/satellite.png ImagePro/assets/images/shapes.png ImagePro/assets/images/side.jpg ImagePro/assets/images/sodo.png ImagePro/assets/images/speed.png ImagePro/assets/images/temperature.png ImagePro/assets/images/test.png ImagePro/assets/images/UAV-100AI.png ImagePro/assets/images/UAV-50_1.png ImagePro/assets/images/UAV-P5_0.png ImagePro/assets/images/UAV-Z4DT.png ImagePro/assets/images/UAV-Z6D.png ImagePro/assets/images/UCAV-13_0.png ImagePro/assets/images/video-player-white.png ImagePro/assets/icons/ankh.png ImagePro/assets/icons/ant.png ImagePro/assets/icons/bee.png ImagePro/assets/icons/beehive.png ImagePro/assets/icons/butterfly.png ImagePro/assets/icons/chinese-symbol.png ImagePro/assets/icons/christian.png ImagePro/assets/icons/cow.png ImagePro/assets/icons/creek.png ImagePro/assets/icons/enso.png ImagePro/assets/icons/falcon.png ImagePro/assets/icons/frog.png ImagePro/assets/icons/gelt.png ImagePro/assets/icons/hamsa.png ImagePro/assets/icons/horse.png ImagePro/assets/icons/iceberg.png ImagePro/assets/icons/infinite.png ImagePro/assets/icons/moon.png ImagePro/assets/icons/mountain.png ImagePro/assets/icons/parrot.png ImagePro/assets/icons/peace.png ImagePro/assets/icons/peacebol.png ImagePro/assets/icons/peace-symbol.png ImagePro/assets/icons/pelican.png ImagePro/assets/icons/perspective.png ImagePro/assets/icons/radiation.png ImagePro/assets/icons/rhino.png ImagePro/assets/icons/snowflake.png ImagePro/assets/icons/star.png ImagePro/assets/icons/symbol.png ImagePro/assets/icons/tree.png ImagePro/assets/icons/triskelion.png ImagePro/assets/icons/whale.png ImagePro/assets/icons/world.png ImagePro/assets/icons/grape.png ImagePro/assets/icons/papaya.png ImagePro/assets/icons/tomato.png ImagePro/assets/icons/watermelon.png ImagePro/assets/icons/back-button.png ImagePro/assets/icons/dowanlod.png ImagePro/assets/icons/next-button.png ImagePro/assets/icons/repeat.png ImagePro/assets/icons/right-arrowhead.png ImagePro/assets/images/sudoku.png ImagePro/assets/icons/avocado.png ImagePro/assets/icons/almond.png ImagePro/assets/icons/fruits.png ImagePro/assets/icons/olive.png ImagePro/assets/icons/pineapple.png ImagePro/assets/icons/strawberry.png ImagePro/assets/icons/dog.png ImagePro/assets/icons/flamingo.png
+build appImagePro_tooling: phony ImagePro/Main.qml ImagePro/MainMenu.qml ImagePro/MainToolBar.qml ImagePro/LeftView.qml ImagePro/RightView.qml ImagePro/AdvancedTools.qml ImagePro/2DFeaturesTools.qml ImagePro/BasicTools.qml ImagePro/FunctionsTools.qml ImagePro/ContoursTools.qml ImagePro/TransformationsTools.qml ImagePro/basic/Exposure.qml ImagePro/basic/Gamma.qml ImagePro/basic/Smoothing.qml ImagePro/basic/Morphology.qml ImagePro/basic/ErodeDilate.qml ImagePro/basic/ExtractLines.qml ImagePro/basic/Threshold.qml ImagePro/basic/InRange.qml ImagePro/transformations/Canny.qml ImagePro/basic/Convert.qml ImagePro/basic/ColorDetection.qml ImagePro/transformations/Filter2D.qml ImagePro/transformations/Rotation.qml ImagePro/transformations/Sobel.qml ImagePro/transformations/Laplacian.qml ImagePro/transformations/HoughLine.qml ImagePro/transformations/HoughCircle.qml ImagePro/transformations/GuilHough.qml ImagePro/transformations/Remap.qml ImagePro/transformations/Affine.qml ImagePro/contours/DrawEgde.qml ImagePro/contours/DrawShape.qml ImagePro/contours/ConvexHull.qml ImagePro/contours/Moments.qml ImagePro/contours/PointPolygon.qml ImagePro/basic/Contrast.qml ImagePro/basic/TemplateMatching.qml ImagePro/features2D/SIFT.qml ImagePro/features2D/Subpix.qml ImagePro/features2D/Custom.qml ImagePro/features2D/HarrisCorner.qml ImagePro/features2D/ShiTomasi.qml ImagePro/features2D/FeaturesDetecting.qml ImagePro/features2D/FeaturesMatching.qml ImagePro/features2D/ORB.qml ImagePro/features2D/AKAZE.qml ImagePro/features2D/FeaturesStitching.qml ImagePro/functions/IconColor.qml ImagePro/assets/icons/ankh.png ImagePro/assets/icons/ant.png ImagePro/assets/icons/bee.png ImagePro/assets/icons/beehive.png ImagePro/assets/icons/butterfly.png ImagePro/assets/icons/chinese-symbol.png ImagePro/assets/icons/christian.png ImagePro/assets/icons/cow.png ImagePro/assets/icons/creek.png ImagePro/assets/icons/enso.png ImagePro/assets/icons/falcon.png ImagePro/assets/icons/frog.png ImagePro/assets/icons/gelt.png ImagePro/assets/icons/hamsa.png ImagePro/assets/icons/horse.png ImagePro/assets/icons/iceberg.png ImagePro/assets/icons/infinite.png ImagePro/assets/icons/moon.png ImagePro/assets/icons/mountain.png ImagePro/assets/icons/parrot.png ImagePro/assets/icons/peace.png ImagePro/assets/icons/peacebol.png ImagePro/assets/icons/peace-symbol.png ImagePro/assets/icons/pelican.png ImagePro/assets/icons/perspective.png ImagePro/assets/icons/radiation.png ImagePro/assets/icons/rhino.png ImagePro/assets/icons/snowflake.png ImagePro/assets/icons/star.png ImagePro/assets/icons/symbol.png ImagePro/assets/icons/tree.png ImagePro/assets/icons/triskelion.png ImagePro/assets/icons/whale.png ImagePro/assets/icons/world.png ImagePro/assets/icons/axe.png ImagePro/assets/icons/axedown.png ImagePro/assets/icons/hand-saw.png ImagePro/assets/icons/knife.png ImagePro/assets/icons/secateurs.png ImagePro/assets/icons/sword.png ImagePro/assets/icons/trowel.png ImagePro/assets/icons/grape.png ImagePro/assets/icons/papaya.png ImagePro/assets/icons/tomato.png ImagePro/assets/icons/watermelon.png ImagePro/assets/icons/back-button.png ImagePro/assets/icons/dowanlod.png ImagePro/assets/icons/next-button.png ImagePro/assets/icons/repeat.png ImagePro/assets/icons/right-arrowhead.png ImagePro/assets/images/sodo.png ImagePro/assets/images/sudoku.png ImagePro/assets/icons/avocado.png ImagePro/assets/icons/almond.png ImagePro/assets/icons/fruits.png ImagePro/assets/icons/olive.png ImagePro/assets/icons/pineapple.png ImagePro/assets/icons/strawberry.png ImagePro/assets/icons/dog.png ImagePro/assets/icons/flamingo.png ImagePro/assets/icons/circlePlus.png
 
 
 #############################################
@@ -1109,11 +1093,11 @@ build .rcc/qmlcache/appImagePro_features2D/ShiTomasi_qml.cpp | ${cmake_ninja_wor
 
 
 #############################################
-# Custom command for .rcc/qmlcache/appImagePro_features2D/FeaturesDescription_qml.cpp
+# Custom command for .rcc/qmlcache/appImagePro_features2D/FeaturesDetecting_qml.cpp
 
-build .rcc/qmlcache/appImagePro_features2D/FeaturesDescription_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appImagePro_features2D/FeaturesDescription_qml.cpp: CUSTOM_COMMAND /home/b6/Qt/6.6.3/gcc_64/libexec/qmlcachegen /home/b6/Works/ImagePro/features2D/FeaturesDescription.qml .rcc/qmake_ImagePro.qrc .rcc/appImagePro_raw_qml_0.qrc ImagePro/appImagePro.qmltypes ImagePro/qmldir || appImagePro_autogen appImagePro_autogen_timestamp_deps appImagePro_qmlimportscan appImagePro_tooling
-  COMMAND = cd /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug && /home/b6/Qt/Tools/CMake/bin/cmake -E make_directory /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D && /home/b6/Qt/6.6.3/gcc_64/./libexec/qmlcachegen --bare --resource-path /qt/qml/ImagePro/features2D/FeaturesDescription.qml -I /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug -I /home/b6/Qt/6.6.3/gcc_64/./qml -i /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/qmldir --resource /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmake_ImagePro.qrc --resource /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/appImagePro_raw_qml_0.qrc -o /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesDescription_qml.cpp /home/b6/Works/ImagePro/features2D/FeaturesDescription.qml
-  DESC = Generating .rcc/qmlcache/appImagePro_features2D/FeaturesDescription_qml.cpp
+build .rcc/qmlcache/appImagePro_features2D/FeaturesDetecting_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appImagePro_features2D/FeaturesDetecting_qml.cpp: CUSTOM_COMMAND /home/b6/Qt/6.6.3/gcc_64/libexec/qmlcachegen /home/b6/Works/ImagePro/features2D/FeaturesDetecting.qml .rcc/qmake_ImagePro.qrc .rcc/appImagePro_raw_qml_0.qrc ImagePro/appImagePro.qmltypes ImagePro/qmldir || appImagePro_autogen appImagePro_autogen_timestamp_deps appImagePro_qmlimportscan appImagePro_tooling
+  COMMAND = cd /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug && /home/b6/Qt/Tools/CMake/bin/cmake -E make_directory /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D && /home/b6/Qt/6.6.3/gcc_64/./libexec/qmlcachegen --bare --resource-path /qt/qml/ImagePro/features2D/FeaturesDetecting.qml -I /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug -I /home/b6/Qt/6.6.3/gcc_64/./qml -i /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/qmldir --resource /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmake_ImagePro.qrc --resource /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/appImagePro_raw_qml_0.qrc -o /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesDetecting_qml.cpp /home/b6/Works/ImagePro/features2D/FeaturesDetecting.qml
+  DESC = Generating .rcc/qmlcache/appImagePro_features2D/FeaturesDetecting_qml.cpp
   restat = 1
 
 
@@ -1145,9 +1129,27 @@ build .rcc/qmlcache/appImagePro_features2D/AKAZE_qml.cpp | ${cmake_ninja_workdir
 
 
 #############################################
+# Custom command for .rcc/qmlcache/appImagePro_features2D/FeaturesStitching_qml.cpp
+
+build .rcc/qmlcache/appImagePro_features2D/FeaturesStitching_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appImagePro_features2D/FeaturesStitching_qml.cpp: CUSTOM_COMMAND /home/b6/Qt/6.6.3/gcc_64/libexec/qmlcachegen /home/b6/Works/ImagePro/features2D/FeaturesStitching.qml .rcc/qmake_ImagePro.qrc .rcc/appImagePro_raw_qml_0.qrc ImagePro/appImagePro.qmltypes ImagePro/qmldir || appImagePro_autogen appImagePro_autogen_timestamp_deps appImagePro_qmlimportscan appImagePro_tooling
+  COMMAND = cd /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug && /home/b6/Qt/Tools/CMake/bin/cmake -E make_directory /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D && /home/b6/Qt/6.6.3/gcc_64/./libexec/qmlcachegen --bare --resource-path /qt/qml/ImagePro/features2D/FeaturesStitching.qml -I /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug -I /home/b6/Qt/6.6.3/gcc_64/./qml -i /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/qmldir --resource /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmake_ImagePro.qrc --resource /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/appImagePro_raw_qml_0.qrc -o /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_features2D/FeaturesStitching_qml.cpp /home/b6/Works/ImagePro/features2D/FeaturesStitching.qml
+  DESC = Generating .rcc/qmlcache/appImagePro_features2D/FeaturesStitching_qml.cpp
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc/qmlcache/appImagePro_functions/IconColor_qml.cpp
+
+build .rcc/qmlcache/appImagePro_functions/IconColor_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appImagePro_functions/IconColor_qml.cpp: CUSTOM_COMMAND /home/b6/Qt/6.6.3/gcc_64/libexec/qmlcachegen /home/b6/Works/ImagePro/functions/IconColor.qml .rcc/qmake_ImagePro.qrc .rcc/appImagePro_raw_qml_0.qrc ImagePro/appImagePro.qmltypes ImagePro/qmldir || appImagePro_autogen appImagePro_autogen_timestamp_deps appImagePro_qmlimportscan appImagePro_tooling
+  COMMAND = cd /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug && /home/b6/Qt/Tools/CMake/bin/cmake -E make_directory /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_functions && /home/b6/Qt/6.6.3/gcc_64/./libexec/qmlcachegen --bare --resource-path /qt/qml/ImagePro/functions/IconColor.qml -I /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug -I /home/b6/Qt/6.6.3/gcc_64/./qml -i /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/qmldir --resource /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmake_ImagePro.qrc --resource /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/appImagePro_raw_qml_0.qrc -o /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appImagePro_functions/IconColor_qml.cpp /home/b6/Works/ImagePro/functions/IconColor.qml
+  DESC = Generating .rcc/qmlcache/appImagePro_functions/IconColor_qml.cpp
+  restat = 1
+
+
+#############################################
 # Custom command for .rcc/qrc_appImagePro_raw_qml_0.cpp
 
-build .rcc/qrc_appImagePro_raw_qml_0.cpp | ${cmake_ninja_workdir}.rcc/qrc_appImagePro_raw_qml_0.cpp: CUSTOM_COMMAND /home/b6/Works/ImagePro/Main.qml /home/b6/Works/ImagePro/MainMenu.qml /home/b6/Works/ImagePro/MainToolBar.qml /home/b6/Works/ImagePro/LeftView.qml /home/b6/Works/ImagePro/RightView.qml /home/b6/Works/ImagePro/AdvancedTools.qml /home/b6/Works/ImagePro/2DFeaturesTools.qml /home/b6/Works/ImagePro/BasicTools.qml /home/b6/Works/ImagePro/FunctionsTools.qml /home/b6/Works/ImagePro/ContoursTools.qml /home/b6/Works/ImagePro/TransformationsTools.qml /home/b6/Works/ImagePro/basic/Exposure.qml /home/b6/Works/ImagePro/basic/Gamma.qml /home/b6/Works/ImagePro/basic/Smoothing.qml /home/b6/Works/ImagePro/basic/Morphology.qml /home/b6/Works/ImagePro/basic/ErodeDilate.qml /home/b6/Works/ImagePro/basic/ExtractLines.qml /home/b6/Works/ImagePro/basic/Threshold.qml /home/b6/Works/ImagePro/basic/InRange.qml /home/b6/Works/ImagePro/transformations/Canny.qml /home/b6/Works/ImagePro/basic/Convert.qml /home/b6/Works/ImagePro/basic/ColorDetection.qml /home/b6/Works/ImagePro/transformations/Filter2D.qml /home/b6/Works/ImagePro/transformations/Rotation.qml /home/b6/Works/ImagePro/transformations/Sobel.qml /home/b6/Works/ImagePro/transformations/Laplacian.qml /home/b6/Works/ImagePro/transformations/HoughLine.qml /home/b6/Works/ImagePro/transformations/HoughCircle.qml /home/b6/Works/ImagePro/transformations/GuilHough.qml /home/b6/Works/ImagePro/transformations/Remap.qml /home/b6/Works/ImagePro/transformations/Affine.qml /home/b6/Works/ImagePro/contours/DrawEgde.qml /home/b6/Works/ImagePro/contours/DrawShape.qml /home/b6/Works/ImagePro/contours/ConvexHull.qml /home/b6/Works/ImagePro/contours/Moments.qml /home/b6/Works/ImagePro/contours/PointPolygon.qml /home/b6/Works/ImagePro/basic/Contrast.qml /home/b6/Works/ImagePro/basic/TemplateMatching.qml /home/b6/Works/ImagePro/features2D/SIFT.qml /home/b6/Works/ImagePro/features2D/Subpix.qml /home/b6/Works/ImagePro/features2D/Custom.qml /home/b6/Works/ImagePro/features2D/HarrisCorner.qml /home/b6/Works/ImagePro/features2D/ShiTomasi.qml /home/b6/Works/ImagePro/features2D/FeaturesDescription.qml /home/b6/Works/ImagePro/features2D/FeaturesMatching.qml /home/b6/Works/ImagePro/features2D/ORB.qml /home/b6/Works/ImagePro/features2D/AKAZE.qml /home/b6/Works/ImagePro/assets/images/aerial.png /home/b6/Works/ImagePro/assets/images/anh1.jpg /home/b6/Works/ImagePro/assets/images/anh2.jpg /home/b6/Works/ImagePro/assets/images/anh3.jpg /home/b6/Works/ImagePro/assets/images/anh4.jpg /home/b6/Works/ImagePro/assets/images/cards.jpg /home/b6/Works/ImagePro/assets/images/clock.png /home/b6/Works/ImagePro/assets/images/drone.png /home/b6/Works/ImagePro/assets/images/FPV.jpg /home/b6/Works/ImagePro/assets/images/FPV.png /home/b6/Works/ImagePro/assets/images/fpv.png /home/b6/Works/ImagePro/assets/images/front.jpg /home/b6/Works/ImagePro/assets/images/generalized_hough_image.jpg /home/b6/Works/ImagePro/assets/images/generalized_hough_mini_image.jpg /home/b6/Works/ImagePro/assets/images/generalized_hough_mini_template.jpg /home/b6/Works/ImagePro/assets/images/generalized_hough_template.jpg /home/b6/Works/ImagePro/assets/images/home.png /home/b6/Works/ImagePro/assets/images/lambo.png /home/b6/Works/ImagePro/assets/images/letter-p.png /home/b6/Works/ImagePro/assets/images/letter-r.png /home/b6/Works/ImagePro/assets/images/letter-y.png /home/b6/Works/ImagePro/assets/images/list-white.png /home/b6/Works/ImagePro/assets/images/location-marker-white.png /home/b6/Works/ImagePro/assets/images/log-file-white.png /home/b6/Works/ImagePro/assets/images/map.png /home/b6/Works/ImagePro/assets/images/map2d.png /home/b6/Works/ImagePro/assets/images/measure-white.png /home/b6/Works/ImagePro/assets/images/origin.jpg /home/b6/Works/ImagePro/assets/images/paper-plane-white.png /home/b6/Works/ImagePro/assets/images/paper.jpg /home/b6/Works/ImagePro/assets/images/placeholder.png /home/b6/Works/ImagePro/assets/images/productPageTitle-uav-4-1.png /home/b6/Works/ImagePro/assets/images/productPageTitle-uav-4-2.png /home/b6/Works/ImagePro/assets/images/road.png /home/b6/Works/ImagePro/assets/images/satellite.png /home/b6/Works/ImagePro/assets/images/shapes.png /home/b6/Works/ImagePro/assets/images/side.jpg /home/b6/Works/ImagePro/assets/images/sodo.png /home/b6/Works/ImagePro/assets/images/speed.png /home/b6/Works/ImagePro/assets/images/temperature.png /home/b6/Works/ImagePro/assets/images/test.png /home/b6/Works/ImagePro/assets/images/UAV-100AI.png /home/b6/Works/ImagePro/assets/images/UAV-50_1.png /home/b6/Works/ImagePro/assets/images/UAV-P5_0.png /home/b6/Works/ImagePro/assets/images/UAV-Z4DT.png /home/b6/Works/ImagePro/assets/images/UAV-Z6D.png /home/b6/Works/ImagePro/assets/images/UCAV-13_0.png /home/b6/Works/ImagePro/assets/images/video-player-white.png /home/b6/Works/ImagePro/assets/icons/ankh.png /home/b6/Works/ImagePro/assets/icons/ant.png /home/b6/Works/ImagePro/assets/icons/bee.png /home/b6/Works/ImagePro/assets/icons/beehive.png /home/b6/Works/ImagePro/assets/icons/butterfly.png /home/b6/Works/ImagePro/assets/icons/chinese-symbol.png /home/b6/Works/ImagePro/assets/icons/christian.png /home/b6/Works/ImagePro/assets/icons/cow.png /home/b6/Works/ImagePro/assets/icons/creek.png /home/b6/Works/ImagePro/assets/icons/enso.png /home/b6/Works/ImagePro/assets/icons/falcon.png /home/b6/Works/ImagePro/assets/icons/frog.png /home/b6/Works/ImagePro/assets/icons/gelt.png /home/b6/Works/ImagePro/assets/icons/hamsa.png /home/b6/Works/ImagePro/assets/icons/horse.png /home/b6/Works/ImagePro/assets/icons/iceberg.png /home/b6/Works/ImagePro/assets/icons/infinite.png /home/b6/Works/ImagePro/assets/icons/moon.png /home/b6/Works/ImagePro/assets/icons/mountain.png /home/b6/Works/ImagePro/assets/icons/parrot.png /home/b6/Works/ImagePro/assets/icons/peace.png /home/b6/Works/ImagePro/assets/icons/peacebol.png /home/b6/Works/ImagePro/assets/icons/peace-symbol.png /home/b6/Works/ImagePro/assets/icons/pelican.png /home/b6/Works/ImagePro/assets/icons/perspective.png /home/b6/Works/ImagePro/assets/icons/radiation.png /home/b6/Works/ImagePro/assets/icons/rhino.png /home/b6/Works/ImagePro/assets/icons/snowflake.png /home/b6/Works/ImagePro/assets/icons/star.png /home/b6/Works/ImagePro/assets/icons/symbol.png /home/b6/Works/ImagePro/assets/icons/tree.png /home/b6/Works/ImagePro/assets/icons/triskelion.png /home/b6/Works/ImagePro/assets/icons/whale.png /home/b6/Works/ImagePro/assets/icons/world.png /home/b6/Works/ImagePro/assets/icons/grape.png /home/b6/Works/ImagePro/assets/icons/papaya.png /home/b6/Works/ImagePro/assets/icons/tomato.png /home/b6/Works/ImagePro/assets/icons/watermelon.png /home/b6/Works/ImagePro/assets/icons/back-button.png /home/b6/Works/ImagePro/assets/icons/dowanlod.png /home/b6/Works/ImagePro/assets/icons/next-button.png /home/b6/Works/ImagePro/assets/icons/repeat.png /home/b6/Works/ImagePro/assets/icons/right-arrowhead.png /home/b6/Works/ImagePro/assets/images/sodo.png /home/b6/Works/ImagePro/assets/images/sudoku.png /home/b6/Works/ImagePro/assets/icons/avocado.png /home/b6/Works/ImagePro/assets/icons/almond.png /home/b6/Works/ImagePro/assets/icons/fruits.png /home/b6/Works/ImagePro/assets/icons/olive.png /home/b6/Works/ImagePro/assets/icons/pineapple.png /home/b6/Works/ImagePro/assets/icons/strawberry.png /home/b6/Works/ImagePro/assets/icons/dog.png /home/b6/Works/ImagePro/assets/icons/flamingo.png .rcc/appImagePro_raw_qml_0.qrc /home/b6/Qt/6.6.3/gcc_64/./libexec/rcc || appImagePro_autogen appImagePro_autogen_timestamp_deps appImagePro_qmlimportscan appImagePro_tooling
+build .rcc/qrc_appImagePro_raw_qml_0.cpp | ${cmake_ninja_workdir}.rcc/qrc_appImagePro_raw_qml_0.cpp: CUSTOM_COMMAND /home/b6/Works/ImagePro/Main.qml /home/b6/Works/ImagePro/MainMenu.qml /home/b6/Works/ImagePro/MainToolBar.qml /home/b6/Works/ImagePro/LeftView.qml /home/b6/Works/ImagePro/RightView.qml /home/b6/Works/ImagePro/AdvancedTools.qml /home/b6/Works/ImagePro/2DFeaturesTools.qml /home/b6/Works/ImagePro/BasicTools.qml /home/b6/Works/ImagePro/FunctionsTools.qml /home/b6/Works/ImagePro/ContoursTools.qml /home/b6/Works/ImagePro/TransformationsTools.qml /home/b6/Works/ImagePro/basic/Exposure.qml /home/b6/Works/ImagePro/basic/Gamma.qml /home/b6/Works/ImagePro/basic/Smoothing.qml /home/b6/Works/ImagePro/basic/Morphology.qml /home/b6/Works/ImagePro/basic/ErodeDilate.qml /home/b6/Works/ImagePro/basic/ExtractLines.qml /home/b6/Works/ImagePro/basic/Threshold.qml /home/b6/Works/ImagePro/basic/InRange.qml /home/b6/Works/ImagePro/transformations/Canny.qml /home/b6/Works/ImagePro/basic/Convert.qml /home/b6/Works/ImagePro/basic/ColorDetection.qml /home/b6/Works/ImagePro/transformations/Filter2D.qml /home/b6/Works/ImagePro/transformations/Rotation.qml /home/b6/Works/ImagePro/transformations/Sobel.qml /home/b6/Works/ImagePro/transformations/Laplacian.qml /home/b6/Works/ImagePro/transformations/HoughLine.qml /home/b6/Works/ImagePro/transformations/HoughCircle.qml /home/b6/Works/ImagePro/transformations/GuilHough.qml /home/b6/Works/ImagePro/transformations/Remap.qml /home/b6/Works/ImagePro/transformations/Affine.qml /home/b6/Works/ImagePro/contours/DrawEgde.qml /home/b6/Works/ImagePro/contours/DrawShape.qml /home/b6/Works/ImagePro/contours/ConvexHull.qml /home/b6/Works/ImagePro/contours/Moments.qml /home/b6/Works/ImagePro/contours/PointPolygon.qml /home/b6/Works/ImagePro/basic/Contrast.qml /home/b6/Works/ImagePro/basic/TemplateMatching.qml /home/b6/Works/ImagePro/features2D/SIFT.qml /home/b6/Works/ImagePro/features2D/Subpix.qml /home/b6/Works/ImagePro/features2D/Custom.qml /home/b6/Works/ImagePro/features2D/HarrisCorner.qml /home/b6/Works/ImagePro/features2D/ShiTomasi.qml /home/b6/Works/ImagePro/features2D/FeaturesDetecting.qml /home/b6/Works/ImagePro/features2D/FeaturesMatching.qml /home/b6/Works/ImagePro/features2D/ORB.qml /home/b6/Works/ImagePro/features2D/AKAZE.qml /home/b6/Works/ImagePro/features2D/FeaturesStitching.qml /home/b6/Works/ImagePro/functions/IconColor.qml /home/b6/Works/ImagePro/assets/icons/ankh.png /home/b6/Works/ImagePro/assets/icons/ant.png /home/b6/Works/ImagePro/assets/icons/bee.png /home/b6/Works/ImagePro/assets/icons/beehive.png /home/b6/Works/ImagePro/assets/icons/butterfly.png /home/b6/Works/ImagePro/assets/icons/chinese-symbol.png /home/b6/Works/ImagePro/assets/icons/christian.png /home/b6/Works/ImagePro/assets/icons/cow.png /home/b6/Works/ImagePro/assets/icons/creek.png /home/b6/Works/ImagePro/assets/icons/enso.png /home/b6/Works/ImagePro/assets/icons/falcon.png /home/b6/Works/ImagePro/assets/icons/frog.png /home/b6/Works/ImagePro/assets/icons/gelt.png /home/b6/Works/ImagePro/assets/icons/hamsa.png /home/b6/Works/ImagePro/assets/icons/horse.png /home/b6/Works/ImagePro/assets/icons/iceberg.png /home/b6/Works/ImagePro/assets/icons/infinite.png /home/b6/Works/ImagePro/assets/icons/moon.png /home/b6/Works/ImagePro/assets/icons/mountain.png /home/b6/Works/ImagePro/assets/icons/parrot.png /home/b6/Works/ImagePro/assets/icons/peace.png /home/b6/Works/ImagePro/assets/icons/peacebol.png /home/b6/Works/ImagePro/assets/icons/peace-symbol.png /home/b6/Works/ImagePro/assets/icons/pelican.png /home/b6/Works/ImagePro/assets/icons/perspective.png /home/b6/Works/ImagePro/assets/icons/radiation.png /home/b6/Works/ImagePro/assets/icons/rhino.png /home/b6/Works/ImagePro/assets/icons/snowflake.png /home/b6/Works/ImagePro/assets/icons/star.png /home/b6/Works/ImagePro/assets/icons/symbol.png /home/b6/Works/ImagePro/assets/icons/tree.png /home/b6/Works/ImagePro/assets/icons/triskelion.png /home/b6/Works/ImagePro/assets/icons/whale.png /home/b6/Works/ImagePro/assets/icons/world.png /home/b6/Works/ImagePro/assets/icons/axe.png /home/b6/Works/ImagePro/assets/icons/axedown.png /home/b6/Works/ImagePro/assets/icons/hand-saw.png /home/b6/Works/ImagePro/assets/icons/knife.png /home/b6/Works/ImagePro/assets/icons/secateurs.png /home/b6/Works/ImagePro/assets/icons/sword.png /home/b6/Works/ImagePro/assets/icons/trowel.png /home/b6/Works/ImagePro/assets/icons/grape.png /home/b6/Works/ImagePro/assets/icons/papaya.png /home/b6/Works/ImagePro/assets/icons/tomato.png /home/b6/Works/ImagePro/assets/icons/watermelon.png /home/b6/Works/ImagePro/assets/icons/back-button.png /home/b6/Works/ImagePro/assets/icons/dowanlod.png /home/b6/Works/ImagePro/assets/icons/next-button.png /home/b6/Works/ImagePro/assets/icons/repeat.png /home/b6/Works/ImagePro/assets/icons/right-arrowhead.png /home/b6/Works/ImagePro/assets/images/sodo.png /home/b6/Works/ImagePro/assets/images/sudoku.png /home/b6/Works/ImagePro/assets/icons/avocado.png /home/b6/Works/ImagePro/assets/icons/almond.png /home/b6/Works/ImagePro/assets/icons/fruits.png /home/b6/Works/ImagePro/assets/icons/olive.png /home/b6/Works/ImagePro/assets/icons/pineapple.png /home/b6/Works/ImagePro/assets/icons/strawberry.png /home/b6/Works/ImagePro/assets/icons/dog.png /home/b6/Works/ImagePro/assets/icons/flamingo.png /home/b6/Works/ImagePro/assets/icons/circlePlus.png .rcc/appImagePro_raw_qml_0.qrc /home/b6/Qt/6.6.3/gcc_64/./libexec/rcc || appImagePro_autogen appImagePro_autogen_timestamp_deps appImagePro_qmlimportscan appImagePro_tooling
   COMMAND = cd /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug && /home/b6/Qt/6.6.3/gcc_64/./libexec/rcc --output /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qrc_appImagePro_raw_qml_0.cpp --name appImagePro_raw_qml_0 /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/appImagePro_raw_qml_0.qrc
   DESC = Running rcc for resource appImagePro_raw_qml_0
   restat = 1
@@ -1182,21 +1184,21 @@ build CMakeFiles/appImagePro_qmltyperegistration | ${cmake_ninja_workdir}CMakeFi
 #############################################
 # Custom command for CMakeFiles/appImagePro_qmllint
 
-build CMakeFiles/appImagePro_qmllint | ${cmake_ninja_workdir}CMakeFiles/appImagePro_qmllint: CUSTOM_COMMAND /home/b6/Qt/6.6.3/gcc_64/bin/qmllint /home/b6/Works/ImagePro/Main.qml /home/b6/Works/ImagePro/MainMenu.qml /home/b6/Works/ImagePro/MainToolBar.qml /home/b6/Works/ImagePro/LeftView.qml /home/b6/Works/ImagePro/RightView.qml /home/b6/Works/ImagePro/AdvancedTools.qml /home/b6/Works/ImagePro/2DFeaturesTools.qml /home/b6/Works/ImagePro/BasicTools.qml /home/b6/Works/ImagePro/FunctionsTools.qml /home/b6/Works/ImagePro/ContoursTools.qml /home/b6/Works/ImagePro/TransformationsTools.qml /home/b6/Works/ImagePro/basic/Exposure.qml /home/b6/Works/ImagePro/basic/Gamma.qml /home/b6/Works/ImagePro/basic/Smoothing.qml /home/b6/Works/ImagePro/basic/Morphology.qml /home/b6/Works/ImagePro/basic/ErodeDilate.qml /home/b6/Works/ImagePro/basic/ExtractLines.qml /home/b6/Works/ImagePro/basic/Threshold.qml /home/b6/Works/ImagePro/basic/InRange.qml /home/b6/Works/ImagePro/transformations/Canny.qml /home/b6/Works/ImagePro/basic/Convert.qml /home/b6/Works/ImagePro/basic/ColorDetection.qml /home/b6/Works/ImagePro/transformations/Filter2D.qml /home/b6/Works/ImagePro/transformations/Rotation.qml /home/b6/Works/ImagePro/transformations/Sobel.qml /home/b6/Works/ImagePro/transformations/Laplacian.qml /home/b6/Works/ImagePro/transformations/HoughLine.qml /home/b6/Works/ImagePro/transformations/HoughCircle.qml /home/b6/Works/ImagePro/transformations/GuilHough.qml /home/b6/Works/ImagePro/transformations/Remap.qml /home/b6/Works/ImagePro/transformations/Affine.qml /home/b6/Works/ImagePro/contours/DrawEgde.qml /home/b6/Works/ImagePro/contours/DrawShape.qml /home/b6/Works/ImagePro/contours/ConvexHull.qml /home/b6/Works/ImagePro/contours/Moments.qml /home/b6/Works/ImagePro/contours/PointPolygon.qml /home/b6/Works/ImagePro/basic/Contrast.qml /home/b6/Works/ImagePro/basic/TemplateMatching.qml /home/b6/Works/ImagePro/features2D/SIFT.qml /home/b6/Works/ImagePro/features2D/Subpix.qml /home/b6/Works/ImagePro/features2D/Custom.qml /home/b6/Works/ImagePro/features2D/HarrisCorner.qml /home/b6/Works/ImagePro/features2D/ShiTomasi.qml /home/b6/Works/ImagePro/features2D/FeaturesDescription.qml /home/b6/Works/ImagePro/features2D/FeaturesMatching.qml /home/b6/Works/ImagePro/features2D/ORB.qml /home/b6/Works/ImagePro/features2D/AKAZE.qml .rcc/qmllint/appImagePro.rsp || all_qmltyperegistrations appImagePro_qmltyperegistration
+build CMakeFiles/appImagePro_qmllint | ${cmake_ninja_workdir}CMakeFiles/appImagePro_qmllint: CUSTOM_COMMAND /home/b6/Qt/6.6.3/gcc_64/bin/qmllint /home/b6/Works/ImagePro/Main.qml /home/b6/Works/ImagePro/MainMenu.qml /home/b6/Works/ImagePro/MainToolBar.qml /home/b6/Works/ImagePro/LeftView.qml /home/b6/Works/ImagePro/RightView.qml /home/b6/Works/ImagePro/AdvancedTools.qml /home/b6/Works/ImagePro/2DFeaturesTools.qml /home/b6/Works/ImagePro/BasicTools.qml /home/b6/Works/ImagePro/FunctionsTools.qml /home/b6/Works/ImagePro/ContoursTools.qml /home/b6/Works/ImagePro/TransformationsTools.qml /home/b6/Works/ImagePro/basic/Exposure.qml /home/b6/Works/ImagePro/basic/Gamma.qml /home/b6/Works/ImagePro/basic/Smoothing.qml /home/b6/Works/ImagePro/basic/Morphology.qml /home/b6/Works/ImagePro/basic/ErodeDilate.qml /home/b6/Works/ImagePro/basic/ExtractLines.qml /home/b6/Works/ImagePro/basic/Threshold.qml /home/b6/Works/ImagePro/basic/InRange.qml /home/b6/Works/ImagePro/transformations/Canny.qml /home/b6/Works/ImagePro/basic/Convert.qml /home/b6/Works/ImagePro/basic/ColorDetection.qml /home/b6/Works/ImagePro/transformations/Filter2D.qml /home/b6/Works/ImagePro/transformations/Rotation.qml /home/b6/Works/ImagePro/transformations/Sobel.qml /home/b6/Works/ImagePro/transformations/Laplacian.qml /home/b6/Works/ImagePro/transformations/HoughLine.qml /home/b6/Works/ImagePro/transformations/HoughCircle.qml /home/b6/Works/ImagePro/transformations/GuilHough.qml /home/b6/Works/ImagePro/transformations/Remap.qml /home/b6/Works/ImagePro/transformations/Affine.qml /home/b6/Works/ImagePro/contours/DrawEgde.qml /home/b6/Works/ImagePro/contours/DrawShape.qml /home/b6/Works/ImagePro/contours/ConvexHull.qml /home/b6/Works/ImagePro/contours/Moments.qml /home/b6/Works/ImagePro/contours/PointPolygon.qml /home/b6/Works/ImagePro/basic/Contrast.qml /home/b6/Works/ImagePro/basic/TemplateMatching.qml /home/b6/Works/ImagePro/features2D/SIFT.qml /home/b6/Works/ImagePro/features2D/Subpix.qml /home/b6/Works/ImagePro/features2D/Custom.qml /home/b6/Works/ImagePro/features2D/HarrisCorner.qml /home/b6/Works/ImagePro/features2D/ShiTomasi.qml /home/b6/Works/ImagePro/features2D/FeaturesDetecting.qml /home/b6/Works/ImagePro/features2D/FeaturesMatching.qml /home/b6/Works/ImagePro/features2D/ORB.qml /home/b6/Works/ImagePro/features2D/AKAZE.qml /home/b6/Works/ImagePro/features2D/FeaturesStitching.qml /home/b6/Works/ImagePro/functions/IconColor.qml .rcc/qmllint/appImagePro.rsp || all_qmltyperegistrations appImagePro_qmltyperegistration
   COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/6.6.3/gcc_64/bin/qmllint @/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmllint/appImagePro.rsp
 
 
 #############################################
 # Custom command for CMakeFiles/appImagePro_qmllint_json
 
-build CMakeFiles/appImagePro_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appImagePro_qmllint_json: CUSTOM_COMMAND /home/b6/Qt/6.6.3/gcc_64/bin/qmllint /home/b6/Works/ImagePro/Main.qml /home/b6/Works/ImagePro/MainMenu.qml /home/b6/Works/ImagePro/MainToolBar.qml /home/b6/Works/ImagePro/LeftView.qml /home/b6/Works/ImagePro/RightView.qml /home/b6/Works/ImagePro/AdvancedTools.qml /home/b6/Works/ImagePro/2DFeaturesTools.qml /home/b6/Works/ImagePro/BasicTools.qml /home/b6/Works/ImagePro/FunctionsTools.qml /home/b6/Works/ImagePro/ContoursTools.qml /home/b6/Works/ImagePro/TransformationsTools.qml /home/b6/Works/ImagePro/basic/Exposure.qml /home/b6/Works/ImagePro/basic/Gamma.qml /home/b6/Works/ImagePro/basic/Smoothing.qml /home/b6/Works/ImagePro/basic/Morphology.qml /home/b6/Works/ImagePro/basic/ErodeDilate.qml /home/b6/Works/ImagePro/basic/ExtractLines.qml /home/b6/Works/ImagePro/basic/Threshold.qml /home/b6/Works/ImagePro/basic/InRange.qml /home/b6/Works/ImagePro/transformations/Canny.qml /home/b6/Works/ImagePro/basic/Convert.qml /home/b6/Works/ImagePro/basic/ColorDetection.qml /home/b6/Works/ImagePro/transformations/Filter2D.qml /home/b6/Works/ImagePro/transformations/Rotation.qml /home/b6/Works/ImagePro/transformations/Sobel.qml /home/b6/Works/ImagePro/transformations/Laplacian.qml /home/b6/Works/ImagePro/transformations/HoughLine.qml /home/b6/Works/ImagePro/transformations/HoughCircle.qml /home/b6/Works/ImagePro/transformations/GuilHough.qml /home/b6/Works/ImagePro/transformations/Remap.qml /home/b6/Works/ImagePro/transformations/Affine.qml /home/b6/Works/ImagePro/contours/DrawEgde.qml /home/b6/Works/ImagePro/contours/DrawShape.qml /home/b6/Works/ImagePro/contours/ConvexHull.qml /home/b6/Works/ImagePro/contours/Moments.qml /home/b6/Works/ImagePro/contours/PointPolygon.qml /home/b6/Works/ImagePro/basic/Contrast.qml /home/b6/Works/ImagePro/basic/TemplateMatching.qml /home/b6/Works/ImagePro/features2D/SIFT.qml /home/b6/Works/ImagePro/features2D/Subpix.qml /home/b6/Works/ImagePro/features2D/Custom.qml /home/b6/Works/ImagePro/features2D/HarrisCorner.qml /home/b6/Works/ImagePro/features2D/ShiTomasi.qml /home/b6/Works/ImagePro/features2D/FeaturesDescription.qml /home/b6/Works/ImagePro/features2D/FeaturesMatching.qml /home/b6/Works/ImagePro/features2D/ORB.qml /home/b6/Works/ImagePro/features2D/AKAZE.qml .rcc/qmllint/appImagePro_json.rsp || all_qmltyperegistrations appImagePro_qmltyperegistration
+build CMakeFiles/appImagePro_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appImagePro_qmllint_json: CUSTOM_COMMAND /home/b6/Qt/6.6.3/gcc_64/bin/qmllint /home/b6/Works/ImagePro/Main.qml /home/b6/Works/ImagePro/MainMenu.qml /home/b6/Works/ImagePro/MainToolBar.qml /home/b6/Works/ImagePro/LeftView.qml /home/b6/Works/ImagePro/RightView.qml /home/b6/Works/ImagePro/AdvancedTools.qml /home/b6/Works/ImagePro/2DFeaturesTools.qml /home/b6/Works/ImagePro/BasicTools.qml /home/b6/Works/ImagePro/FunctionsTools.qml /home/b6/Works/ImagePro/ContoursTools.qml /home/b6/Works/ImagePro/TransformationsTools.qml /home/b6/Works/ImagePro/basic/Exposure.qml /home/b6/Works/ImagePro/basic/Gamma.qml /home/b6/Works/ImagePro/basic/Smoothing.qml /home/b6/Works/ImagePro/basic/Morphology.qml /home/b6/Works/ImagePro/basic/ErodeDilate.qml /home/b6/Works/ImagePro/basic/ExtractLines.qml /home/b6/Works/ImagePro/basic/Threshold.qml /home/b6/Works/ImagePro/basic/InRange.qml /home/b6/Works/ImagePro/transformations/Canny.qml /home/b6/Works/ImagePro/basic/Convert.qml /home/b6/Works/ImagePro/basic/ColorDetection.qml /home/b6/Works/ImagePro/transformations/Filter2D.qml /home/b6/Works/ImagePro/transformations/Rotation.qml /home/b6/Works/ImagePro/transformations/Sobel.qml /home/b6/Works/ImagePro/transformations/Laplacian.qml /home/b6/Works/ImagePro/transformations/HoughLine.qml /home/b6/Works/ImagePro/transformations/HoughCircle.qml /home/b6/Works/ImagePro/transformations/GuilHough.qml /home/b6/Works/ImagePro/transformations/Remap.qml /home/b6/Works/ImagePro/transformations/Affine.qml /home/b6/Works/ImagePro/contours/DrawEgde.qml /home/b6/Works/ImagePro/contours/DrawShape.qml /home/b6/Works/ImagePro/contours/ConvexHull.qml /home/b6/Works/ImagePro/contours/Moments.qml /home/b6/Works/ImagePro/contours/PointPolygon.qml /home/b6/Works/ImagePro/basic/Contrast.qml /home/b6/Works/ImagePro/basic/TemplateMatching.qml /home/b6/Works/ImagePro/features2D/SIFT.qml /home/b6/Works/ImagePro/features2D/Subpix.qml /home/b6/Works/ImagePro/features2D/Custom.qml /home/b6/Works/ImagePro/features2D/HarrisCorner.qml /home/b6/Works/ImagePro/features2D/ShiTomasi.qml /home/b6/Works/ImagePro/features2D/FeaturesDetecting.qml /home/b6/Works/ImagePro/features2D/FeaturesMatching.qml /home/b6/Works/ImagePro/features2D/ORB.qml /home/b6/Works/ImagePro/features2D/AKAZE.qml /home/b6/Works/ImagePro/features2D/FeaturesStitching.qml /home/b6/Works/ImagePro/functions/IconColor.qml .rcc/qmllint/appImagePro_json.rsp || all_qmltyperegistrations appImagePro_qmltyperegistration
   COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/6.6.3/gcc_64/bin/qmllint @/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmllint/appImagePro_json.rsp
 
 
 #############################################
 # Custom command for CMakeFiles/appImagePro_qmllint_module
 
-build CMakeFiles/appImagePro_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appImagePro_qmllint_module: CUSTOM_COMMAND /home/b6/Qt/6.6.3/gcc_64/bin/qmllint /home/b6/Works/ImagePro/Main.qml /home/b6/Works/ImagePro/MainMenu.qml /home/b6/Works/ImagePro/MainToolBar.qml /home/b6/Works/ImagePro/LeftView.qml /home/b6/Works/ImagePro/RightView.qml /home/b6/Works/ImagePro/AdvancedTools.qml /home/b6/Works/ImagePro/2DFeaturesTools.qml /home/b6/Works/ImagePro/BasicTools.qml /home/b6/Works/ImagePro/FunctionsTools.qml /home/b6/Works/ImagePro/ContoursTools.qml /home/b6/Works/ImagePro/TransformationsTools.qml /home/b6/Works/ImagePro/basic/Exposure.qml /home/b6/Works/ImagePro/basic/Gamma.qml /home/b6/Works/ImagePro/basic/Smoothing.qml /home/b6/Works/ImagePro/basic/Morphology.qml /home/b6/Works/ImagePro/basic/ErodeDilate.qml /home/b6/Works/ImagePro/basic/ExtractLines.qml /home/b6/Works/ImagePro/basic/Threshold.qml /home/b6/Works/ImagePro/basic/InRange.qml /home/b6/Works/ImagePro/transformations/Canny.qml /home/b6/Works/ImagePro/basic/Convert.qml /home/b6/Works/ImagePro/basic/ColorDetection.qml /home/b6/Works/ImagePro/transformations/Filter2D.qml /home/b6/Works/ImagePro/transformations/Rotation.qml /home/b6/Works/ImagePro/transformations/Sobel.qml /home/b6/Works/ImagePro/transformations/Laplacian.qml /home/b6/Works/ImagePro/transformations/HoughLine.qml /home/b6/Works/ImagePro/transformations/HoughCircle.qml /home/b6/Works/ImagePro/transformations/GuilHough.qml /home/b6/Works/ImagePro/transformations/Remap.qml /home/b6/Works/ImagePro/transformations/Affine.qml /home/b6/Works/ImagePro/contours/DrawEgde.qml /home/b6/Works/ImagePro/contours/DrawShape.qml /home/b6/Works/ImagePro/contours/ConvexHull.qml /home/b6/Works/ImagePro/contours/Moments.qml /home/b6/Works/ImagePro/contours/PointPolygon.qml /home/b6/Works/ImagePro/basic/Contrast.qml /home/b6/Works/ImagePro/basic/TemplateMatching.qml /home/b6/Works/ImagePro/features2D/SIFT.qml /home/b6/Works/ImagePro/features2D/Subpix.qml /home/b6/Works/ImagePro/features2D/Custom.qml /home/b6/Works/ImagePro/features2D/HarrisCorner.qml /home/b6/Works/ImagePro/features2D/ShiTomasi.qml /home/b6/Works/ImagePro/features2D/FeaturesDescription.qml /home/b6/Works/ImagePro/features2D/FeaturesMatching.qml /home/b6/Works/ImagePro/features2D/ORB.qml /home/b6/Works/ImagePro/features2D/AKAZE.qml .rcc/qmllint/appImagePro_module.rsp || all_qmltyperegistrations appImagePro_qmltyperegistration
+build CMakeFiles/appImagePro_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appImagePro_qmllint_module: CUSTOM_COMMAND /home/b6/Qt/6.6.3/gcc_64/bin/qmllint /home/b6/Works/ImagePro/Main.qml /home/b6/Works/ImagePro/MainMenu.qml /home/b6/Works/ImagePro/MainToolBar.qml /home/b6/Works/ImagePro/LeftView.qml /home/b6/Works/ImagePro/RightView.qml /home/b6/Works/ImagePro/AdvancedTools.qml /home/b6/Works/ImagePro/2DFeaturesTools.qml /home/b6/Works/ImagePro/BasicTools.qml /home/b6/Works/ImagePro/FunctionsTools.qml /home/b6/Works/ImagePro/ContoursTools.qml /home/b6/Works/ImagePro/TransformationsTools.qml /home/b6/Works/ImagePro/basic/Exposure.qml /home/b6/Works/ImagePro/basic/Gamma.qml /home/b6/Works/ImagePro/basic/Smoothing.qml /home/b6/Works/ImagePro/basic/Morphology.qml /home/b6/Works/ImagePro/basic/ErodeDilate.qml /home/b6/Works/ImagePro/basic/ExtractLines.qml /home/b6/Works/ImagePro/basic/Threshold.qml /home/b6/Works/ImagePro/basic/InRange.qml /home/b6/Works/ImagePro/transformations/Canny.qml /home/b6/Works/ImagePro/basic/Convert.qml /home/b6/Works/ImagePro/basic/ColorDetection.qml /home/b6/Works/ImagePro/transformations/Filter2D.qml /home/b6/Works/ImagePro/transformations/Rotation.qml /home/b6/Works/ImagePro/transformations/Sobel.qml /home/b6/Works/ImagePro/transformations/Laplacian.qml /home/b6/Works/ImagePro/transformations/HoughLine.qml /home/b6/Works/ImagePro/transformations/HoughCircle.qml /home/b6/Works/ImagePro/transformations/GuilHough.qml /home/b6/Works/ImagePro/transformations/Remap.qml /home/b6/Works/ImagePro/transformations/Affine.qml /home/b6/Works/ImagePro/contours/DrawEgde.qml /home/b6/Works/ImagePro/contours/DrawShape.qml /home/b6/Works/ImagePro/contours/ConvexHull.qml /home/b6/Works/ImagePro/contours/Moments.qml /home/b6/Works/ImagePro/contours/PointPolygon.qml /home/b6/Works/ImagePro/basic/Contrast.qml /home/b6/Works/ImagePro/basic/TemplateMatching.qml /home/b6/Works/ImagePro/features2D/SIFT.qml /home/b6/Works/ImagePro/features2D/Subpix.qml /home/b6/Works/ImagePro/features2D/Custom.qml /home/b6/Works/ImagePro/features2D/HarrisCorner.qml /home/b6/Works/ImagePro/features2D/ShiTomasi.qml /home/b6/Works/ImagePro/features2D/FeaturesDetecting.qml /home/b6/Works/ImagePro/features2D/FeaturesMatching.qml /home/b6/Works/ImagePro/features2D/ORB.qml /home/b6/Works/ImagePro/features2D/AKAZE.qml /home/b6/Works/ImagePro/features2D/FeaturesStitching.qml /home/b6/Works/ImagePro/functions/IconColor.qml .rcc/qmllint/appImagePro_module.rsp || all_qmltyperegistrations appImagePro_qmltyperegistration
   COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/6.6.3/gcc_64/bin/qmllint @/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmllint/appImagePro_module.rsp
 
 
@@ -1588,11 +1590,11 @@ build ImagePro/features2D/ShiTomasi.qml | ${cmake_ninja_workdir}ImagePro/feature
 
 
 #############################################
-# Custom command for ImagePro/features2D/FeaturesDescription.qml
+# Custom command for ImagePro/features2D/FeaturesDetecting.qml
 
-build ImagePro/features2D/FeaturesDescription.qml | ${cmake_ninja_workdir}ImagePro/features2D/FeaturesDescription.qml: CUSTOM_COMMAND /home/b6/Works/ImagePro/features2D/FeaturesDescription.qml
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/features2D/FeaturesDescription.qml /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/features2D/FeaturesDescription.qml
-  DESC = Copying features2D/FeaturesDescription.qml to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/features2D/FeaturesDescription.qml
+build ImagePro/features2D/FeaturesDetecting.qml | ${cmake_ninja_workdir}ImagePro/features2D/FeaturesDetecting.qml: CUSTOM_COMMAND /home/b6/Works/ImagePro/features2D/FeaturesDetecting.qml
+  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/features2D/FeaturesDetecting.qml /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/features2D/FeaturesDetecting.qml
+  DESC = Copying features2D/FeaturesDetecting.qml to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/features2D/FeaturesDetecting.qml
   restat = 1
 
 
@@ -1624,434 +1626,20 @@ build ImagePro/features2D/AKAZE.qml | ${cmake_ninja_workdir}ImagePro/features2D/
 
 
 #############################################
-# Custom command for ImagePro/assets/images/aerial.png
+# Custom command for ImagePro/features2D/FeaturesStitching.qml
 
-build ImagePro/assets/images/aerial.png | ${cmake_ninja_workdir}ImagePro/assets/images/aerial.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/aerial.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/aerial.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/aerial.png
-  DESC = Copying assets/images/aerial.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/aerial.png
+build ImagePro/features2D/FeaturesStitching.qml | ${cmake_ninja_workdir}ImagePro/features2D/FeaturesStitching.qml: CUSTOM_COMMAND /home/b6/Works/ImagePro/features2D/FeaturesStitching.qml
+  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/features2D/FeaturesStitching.qml /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/features2D/FeaturesStitching.qml
+  DESC = Copying features2D/FeaturesStitching.qml to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/features2D/FeaturesStitching.qml
   restat = 1
 
 
 #############################################
-# Custom command for ImagePro/assets/images/anh1.jpg
-
-build ImagePro/assets/images/anh1.jpg | ${cmake_ninja_workdir}ImagePro/assets/images/anh1.jpg: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/anh1.jpg
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/anh1.jpg /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh1.jpg
-  DESC = Copying assets/images/anh1.jpg to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh1.jpg
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/anh2.jpg
-
-build ImagePro/assets/images/anh2.jpg | ${cmake_ninja_workdir}ImagePro/assets/images/anh2.jpg: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/anh2.jpg
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/anh2.jpg /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh2.jpg
-  DESC = Copying assets/images/anh2.jpg to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh2.jpg
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/anh3.jpg
-
-build ImagePro/assets/images/anh3.jpg | ${cmake_ninja_workdir}ImagePro/assets/images/anh3.jpg: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/anh3.jpg
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/anh3.jpg /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh3.jpg
-  DESC = Copying assets/images/anh3.jpg to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh3.jpg
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/anh4.jpg
-
-build ImagePro/assets/images/anh4.jpg | ${cmake_ninja_workdir}ImagePro/assets/images/anh4.jpg: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/anh4.jpg
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/anh4.jpg /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh4.jpg
-  DESC = Copying assets/images/anh4.jpg to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/anh4.jpg
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/cards.jpg
-
-build ImagePro/assets/images/cards.jpg | ${cmake_ninja_workdir}ImagePro/assets/images/cards.jpg: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/cards.jpg
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/cards.jpg /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/cards.jpg
-  DESC = Copying assets/images/cards.jpg to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/cards.jpg
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/clock.png
-
-build ImagePro/assets/images/clock.png | ${cmake_ninja_workdir}ImagePro/assets/images/clock.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/clock.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/clock.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/clock.png
-  DESC = Copying assets/images/clock.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/clock.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/drone.png
-
-build ImagePro/assets/images/drone.png | ${cmake_ninja_workdir}ImagePro/assets/images/drone.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/drone.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/drone.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/drone.png
-  DESC = Copying assets/images/drone.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/drone.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/FPV.jpg
-
-build ImagePro/assets/images/FPV.jpg | ${cmake_ninja_workdir}ImagePro/assets/images/FPV.jpg: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/FPV.jpg
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/FPV.jpg /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/FPV.jpg
-  DESC = Copying assets/images/FPV.jpg to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/FPV.jpg
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/FPV.png
-
-build ImagePro/assets/images/FPV.png | ${cmake_ninja_workdir}ImagePro/assets/images/FPV.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/FPV.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/FPV.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/FPV.png
-  DESC = Copying assets/images/FPV.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/FPV.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/fpv.png
-
-build ImagePro/assets/images/fpv.png | ${cmake_ninja_workdir}ImagePro/assets/images/fpv.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/fpv.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/fpv.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/fpv.png
-  DESC = Copying assets/images/fpv.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/fpv.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/front.jpg
-
-build ImagePro/assets/images/front.jpg | ${cmake_ninja_workdir}ImagePro/assets/images/front.jpg: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/front.jpg
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/front.jpg /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/front.jpg
-  DESC = Copying assets/images/front.jpg to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/front.jpg
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/generalized_hough_image.jpg
-
-build ImagePro/assets/images/generalized_hough_image.jpg | ${cmake_ninja_workdir}ImagePro/assets/images/generalized_hough_image.jpg: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/generalized_hough_image.jpg
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/generalized_hough_image.jpg /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_image.jpg
-  DESC = Copying assets/images/generalized_hough_image.jpg to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_image.jpg
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/generalized_hough_mini_image.jpg
-
-build ImagePro/assets/images/generalized_hough_mini_image.jpg | ${cmake_ninja_workdir}ImagePro/assets/images/generalized_hough_mini_image.jpg: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/generalized_hough_mini_image.jpg
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/generalized_hough_mini_image.jpg /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_mini_image.jpg
-  DESC = Copying assets/images/generalized_hough_mini_image.jpg to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_mini_image.jpg
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/generalized_hough_mini_template.jpg
-
-build ImagePro/assets/images/generalized_hough_mini_template.jpg | ${cmake_ninja_workdir}ImagePro/assets/images/generalized_hough_mini_template.jpg: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/generalized_hough_mini_template.jpg
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/generalized_hough_mini_template.jpg /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_mini_template.jpg
-  DESC = Copying assets/images/generalized_hough_mini_template.jpg to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_mini_template.jpg
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/generalized_hough_template.jpg
-
-build ImagePro/assets/images/generalized_hough_template.jpg | ${cmake_ninja_workdir}ImagePro/assets/images/generalized_hough_template.jpg: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/generalized_hough_template.jpg
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/generalized_hough_template.jpg /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_template.jpg
-  DESC = Copying assets/images/generalized_hough_template.jpg to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/generalized_hough_template.jpg
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/home.png
-
-build ImagePro/assets/images/home.png | ${cmake_ninja_workdir}ImagePro/assets/images/home.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/home.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/home.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/home.png
-  DESC = Copying assets/images/home.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/home.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/lambo.png
-
-build ImagePro/assets/images/lambo.png | ${cmake_ninja_workdir}ImagePro/assets/images/lambo.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/lambo.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/lambo.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/lambo.png
-  DESC = Copying assets/images/lambo.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/lambo.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/letter-p.png
-
-build ImagePro/assets/images/letter-p.png | ${cmake_ninja_workdir}ImagePro/assets/images/letter-p.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/letter-p.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/letter-p.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/letter-p.png
-  DESC = Copying assets/images/letter-p.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/letter-p.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/letter-r.png
-
-build ImagePro/assets/images/letter-r.png | ${cmake_ninja_workdir}ImagePro/assets/images/letter-r.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/letter-r.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/letter-r.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/letter-r.png
-  DESC = Copying assets/images/letter-r.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/letter-r.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/letter-y.png
-
-build ImagePro/assets/images/letter-y.png | ${cmake_ninja_workdir}ImagePro/assets/images/letter-y.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/letter-y.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/letter-y.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/letter-y.png
-  DESC = Copying assets/images/letter-y.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/letter-y.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/list-white.png
-
-build ImagePro/assets/images/list-white.png | ${cmake_ninja_workdir}ImagePro/assets/images/list-white.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/list-white.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/list-white.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/list-white.png
-  DESC = Copying assets/images/list-white.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/list-white.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/location-marker-white.png
-
-build ImagePro/assets/images/location-marker-white.png | ${cmake_ninja_workdir}ImagePro/assets/images/location-marker-white.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/location-marker-white.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/location-marker-white.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/location-marker-white.png
-  DESC = Copying assets/images/location-marker-white.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/location-marker-white.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/log-file-white.png
-
-build ImagePro/assets/images/log-file-white.png | ${cmake_ninja_workdir}ImagePro/assets/images/log-file-white.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/log-file-white.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/log-file-white.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/log-file-white.png
-  DESC = Copying assets/images/log-file-white.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/log-file-white.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/map.png
-
-build ImagePro/assets/images/map.png | ${cmake_ninja_workdir}ImagePro/assets/images/map.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/map.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/map.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/map.png
-  DESC = Copying assets/images/map.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/map.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/map2d.png
-
-build ImagePro/assets/images/map2d.png | ${cmake_ninja_workdir}ImagePro/assets/images/map2d.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/map2d.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/map2d.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/map2d.png
-  DESC = Copying assets/images/map2d.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/map2d.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/measure-white.png
-
-build ImagePro/assets/images/measure-white.png | ${cmake_ninja_workdir}ImagePro/assets/images/measure-white.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/measure-white.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/measure-white.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/measure-white.png
-  DESC = Copying assets/images/measure-white.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/measure-white.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/origin.jpg
-
-build ImagePro/assets/images/origin.jpg | ${cmake_ninja_workdir}ImagePro/assets/images/origin.jpg: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/origin.jpg
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/origin.jpg /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/origin.jpg
-  DESC = Copying assets/images/origin.jpg to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/origin.jpg
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/paper-plane-white.png
-
-build ImagePro/assets/images/paper-plane-white.png | ${cmake_ninja_workdir}ImagePro/assets/images/paper-plane-white.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/paper-plane-white.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/paper-plane-white.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/paper-plane-white.png
-  DESC = Copying assets/images/paper-plane-white.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/paper-plane-white.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/paper.jpg
-
-build ImagePro/assets/images/paper.jpg | ${cmake_ninja_workdir}ImagePro/assets/images/paper.jpg: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/paper.jpg
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/paper.jpg /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/paper.jpg
-  DESC = Copying assets/images/paper.jpg to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/paper.jpg
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/placeholder.png
-
-build ImagePro/assets/images/placeholder.png | ${cmake_ninja_workdir}ImagePro/assets/images/placeholder.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/placeholder.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/placeholder.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/placeholder.png
-  DESC = Copying assets/images/placeholder.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/placeholder.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/productPageTitle-uav-4-1.png
-
-build ImagePro/assets/images/productPageTitle-uav-4-1.png | ${cmake_ninja_workdir}ImagePro/assets/images/productPageTitle-uav-4-1.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/productPageTitle-uav-4-1.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/productPageTitle-uav-4-1.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/productPageTitle-uav-4-1.png
-  DESC = Copying assets/images/productPageTitle-uav-4-1.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/productPageTitle-uav-4-1.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/productPageTitle-uav-4-2.png
-
-build ImagePro/assets/images/productPageTitle-uav-4-2.png | ${cmake_ninja_workdir}ImagePro/assets/images/productPageTitle-uav-4-2.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/productPageTitle-uav-4-2.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/productPageTitle-uav-4-2.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/productPageTitle-uav-4-2.png
-  DESC = Copying assets/images/productPageTitle-uav-4-2.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/productPageTitle-uav-4-2.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/road.png
-
-build ImagePro/assets/images/road.png | ${cmake_ninja_workdir}ImagePro/assets/images/road.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/road.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/road.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/road.png
-  DESC = Copying assets/images/road.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/road.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/satellite.png
-
-build ImagePro/assets/images/satellite.png | ${cmake_ninja_workdir}ImagePro/assets/images/satellite.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/satellite.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/satellite.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/satellite.png
-  DESC = Copying assets/images/satellite.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/satellite.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/shapes.png
-
-build ImagePro/assets/images/shapes.png | ${cmake_ninja_workdir}ImagePro/assets/images/shapes.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/shapes.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/shapes.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/shapes.png
-  DESC = Copying assets/images/shapes.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/shapes.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/side.jpg
-
-build ImagePro/assets/images/side.jpg | ${cmake_ninja_workdir}ImagePro/assets/images/side.jpg: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/side.jpg
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/side.jpg /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/side.jpg
-  DESC = Copying assets/images/side.jpg to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/side.jpg
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/sodo.png
-
-build ImagePro/assets/images/sodo.png | ${cmake_ninja_workdir}ImagePro/assets/images/sodo.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/sodo.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/sodo.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/sodo.png
-  DESC = Copying assets/images/sodo.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/sodo.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/speed.png
-
-build ImagePro/assets/images/speed.png | ${cmake_ninja_workdir}ImagePro/assets/images/speed.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/speed.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/speed.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/speed.png
-  DESC = Copying assets/images/speed.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/speed.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/temperature.png
-
-build ImagePro/assets/images/temperature.png | ${cmake_ninja_workdir}ImagePro/assets/images/temperature.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/temperature.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/temperature.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/temperature.png
-  DESC = Copying assets/images/temperature.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/temperature.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/test.png
-
-build ImagePro/assets/images/test.png | ${cmake_ninja_workdir}ImagePro/assets/images/test.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/test.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/test.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/test.png
-  DESC = Copying assets/images/test.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/test.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/UAV-100AI.png
-
-build ImagePro/assets/images/UAV-100AI.png | ${cmake_ninja_workdir}ImagePro/assets/images/UAV-100AI.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/UAV-100AI.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/UAV-100AI.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-100AI.png
-  DESC = Copying assets/images/UAV-100AI.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-100AI.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/UAV-50_1.png
-
-build ImagePro/assets/images/UAV-50_1.png | ${cmake_ninja_workdir}ImagePro/assets/images/UAV-50_1.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/UAV-50_1.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/UAV-50_1.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-50_1.png
-  DESC = Copying assets/images/UAV-50_1.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-50_1.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/UAV-P5_0.png
-
-build ImagePro/assets/images/UAV-P5_0.png | ${cmake_ninja_workdir}ImagePro/assets/images/UAV-P5_0.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/UAV-P5_0.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/UAV-P5_0.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-P5_0.png
-  DESC = Copying assets/images/UAV-P5_0.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-P5_0.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/UAV-Z4DT.png
-
-build ImagePro/assets/images/UAV-Z4DT.png | ${cmake_ninja_workdir}ImagePro/assets/images/UAV-Z4DT.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/UAV-Z4DT.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/UAV-Z4DT.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-Z4DT.png
-  DESC = Copying assets/images/UAV-Z4DT.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-Z4DT.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/UAV-Z6D.png
-
-build ImagePro/assets/images/UAV-Z6D.png | ${cmake_ninja_workdir}ImagePro/assets/images/UAV-Z6D.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/UAV-Z6D.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/UAV-Z6D.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-Z6D.png
-  DESC = Copying assets/images/UAV-Z6D.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UAV-Z6D.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/UCAV-13_0.png
-
-build ImagePro/assets/images/UCAV-13_0.png | ${cmake_ninja_workdir}ImagePro/assets/images/UCAV-13_0.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/UCAV-13_0.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/UCAV-13_0.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UCAV-13_0.png
-  DESC = Copying assets/images/UCAV-13_0.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/UCAV-13_0.png
-  restat = 1
-
-
-#############################################
-# Custom command for ImagePro/assets/images/video-player-white.png
-
-build ImagePro/assets/images/video-player-white.png | ${cmake_ninja_workdir}ImagePro/assets/images/video-player-white.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/video-player-white.png
-  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/video-player-white.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/video-player-white.png
-  DESC = Copying assets/images/video-player-white.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/video-player-white.png
+# Custom command for ImagePro/functions/IconColor.qml
+
+build ImagePro/functions/IconColor.qml | ${cmake_ninja_workdir}ImagePro/functions/IconColor.qml: CUSTOM_COMMAND /home/b6/Works/ImagePro/functions/IconColor.qml
+  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/functions/IconColor.qml /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/functions/IconColor.qml
+  DESC = Copying functions/IconColor.qml to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/functions/IconColor.qml
   restat = 1
 
 
@@ -2362,6 +1950,69 @@ build ImagePro/assets/icons/world.png | ${cmake_ninja_workdir}ImagePro/assets/ic
 
 
 #############################################
+# Custom command for ImagePro/assets/icons/axe.png
+
+build ImagePro/assets/icons/axe.png | ${cmake_ninja_workdir}ImagePro/assets/icons/axe.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/icons/axe.png
+  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/icons/axe.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/axe.png
+  DESC = Copying assets/icons/axe.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/axe.png
+  restat = 1
+
+
+#############################################
+# Custom command for ImagePro/assets/icons/axedown.png
+
+build ImagePro/assets/icons/axedown.png | ${cmake_ninja_workdir}ImagePro/assets/icons/axedown.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/icons/axedown.png
+  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/icons/axedown.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/axedown.png
+  DESC = Copying assets/icons/axedown.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/axedown.png
+  restat = 1
+
+
+#############################################
+# Custom command for ImagePro/assets/icons/hand-saw.png
+
+build ImagePro/assets/icons/hand-saw.png | ${cmake_ninja_workdir}ImagePro/assets/icons/hand-saw.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/icons/hand-saw.png
+  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/icons/hand-saw.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/hand-saw.png
+  DESC = Copying assets/icons/hand-saw.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/hand-saw.png
+  restat = 1
+
+
+#############################################
+# Custom command for ImagePro/assets/icons/knife.png
+
+build ImagePro/assets/icons/knife.png | ${cmake_ninja_workdir}ImagePro/assets/icons/knife.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/icons/knife.png
+  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/icons/knife.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/knife.png
+  DESC = Copying assets/icons/knife.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/knife.png
+  restat = 1
+
+
+#############################################
+# Custom command for ImagePro/assets/icons/secateurs.png
+
+build ImagePro/assets/icons/secateurs.png | ${cmake_ninja_workdir}ImagePro/assets/icons/secateurs.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/icons/secateurs.png
+  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/icons/secateurs.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/secateurs.png
+  DESC = Copying assets/icons/secateurs.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/secateurs.png
+  restat = 1
+
+
+#############################################
+# Custom command for ImagePro/assets/icons/sword.png
+
+build ImagePro/assets/icons/sword.png | ${cmake_ninja_workdir}ImagePro/assets/icons/sword.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/icons/sword.png
+  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/icons/sword.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/sword.png
+  DESC = Copying assets/icons/sword.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/sword.png
+  restat = 1
+
+
+#############################################
+# Custom command for ImagePro/assets/icons/trowel.png
+
+build ImagePro/assets/icons/trowel.png | ${cmake_ninja_workdir}ImagePro/assets/icons/trowel.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/icons/trowel.png
+  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/icons/trowel.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/trowel.png
+  DESC = Copying assets/icons/trowel.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/trowel.png
+  restat = 1
+
+
+#############################################
 # Custom command for ImagePro/assets/icons/grape.png
 
 build ImagePro/assets/icons/grape.png | ${cmake_ninja_workdir}ImagePro/assets/icons/grape.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/icons/grape.png
@@ -2439,6 +2090,15 @@ build ImagePro/assets/icons/repeat.png | ${cmake_ninja_workdir}ImagePro/assets/i
 build ImagePro/assets/icons/right-arrowhead.png | ${cmake_ninja_workdir}ImagePro/assets/icons/right-arrowhead.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/icons/right-arrowhead.png
   COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/icons/right-arrowhead.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/right-arrowhead.png
   DESC = Copying assets/icons/right-arrowhead.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/right-arrowhead.png
+  restat = 1
+
+
+#############################################
+# Custom command for ImagePro/assets/images/sodo.png
+
+build ImagePro/assets/images/sodo.png | ${cmake_ninja_workdir}ImagePro/assets/images/sodo.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/images/sodo.png
+  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/images/sodo.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/sodo.png
+  DESC = Copying assets/images/sodo.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/images/sodo.png
   restat = 1
 
 
@@ -2524,6 +2184,15 @@ build ImagePro/assets/icons/flamingo.png | ${cmake_ninja_workdir}ImagePro/assets
 
 
 #############################################
+# Custom command for ImagePro/assets/icons/circlePlus.png
+
+build ImagePro/assets/icons/circlePlus.png | ${cmake_ninja_workdir}ImagePro/assets/icons/circlePlus.png: CUSTOM_COMMAND /home/b6/Works/ImagePro/assets/icons/circlePlus.png
+  COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/Tools/CMake/bin/cmake -E copy /home/b6/Works/ImagePro/assets/icons/circlePlus.png /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/circlePlus.png
+  DESC = Copying assets/icons/circlePlus.png to /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ImagePro/assets/icons/circlePlus.png
+  restat = 1
+
+
+#############################################
 # Phony custom command for CMakeFiles/appImagePro_qmlimportscan
 
 build CMakeFiles/appImagePro_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/appImagePro_qmlimportscan: phony .qt_plugins/Qt6_QmlPlugins_Imports_appImagePro.cmake
@@ -2532,7 +2201,7 @@ build CMakeFiles/appImagePro_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/ap
 #############################################
 # Custom command for .qt_plugins/Qt6_QmlPlugins_Imports_appImagePro.cmake
 
-build .qt_plugins/Qt6_QmlPlugins_Imports_appImagePro.cmake | ${cmake_ninja_workdir}.qt_plugins/Qt6_QmlPlugins_Imports_appImagePro.cmake: CUSTOM_COMMAND /home/b6/Qt/6.6.3/gcc_64/libexec/qmlimportscanner .rcc/qmake_ImagePro.qrc .rcc/appImagePro_raw_qml_0.qrc /home/b6/Works/ImagePro/Main.qml /home/b6/Works/ImagePro/MainMenu.qml /home/b6/Works/ImagePro/MainToolBar.qml /home/b6/Works/ImagePro/LeftView.qml /home/b6/Works/ImagePro/RightView.qml /home/b6/Works/ImagePro/AdvancedTools.qml /home/b6/Works/ImagePro/2DFeaturesTools.qml /home/b6/Works/ImagePro/BasicTools.qml /home/b6/Works/ImagePro/FunctionsTools.qml /home/b6/Works/ImagePro/ContoursTools.qml /home/b6/Works/ImagePro/TransformationsTools.qml /home/b6/Works/ImagePro/basic/Exposure.qml /home/b6/Works/ImagePro/basic/Gamma.qml /home/b6/Works/ImagePro/basic/Smoothing.qml /home/b6/Works/ImagePro/basic/Morphology.qml /home/b6/Works/ImagePro/basic/ErodeDilate.qml /home/b6/Works/ImagePro/basic/ExtractLines.qml /home/b6/Works/ImagePro/basic/Threshold.qml /home/b6/Works/ImagePro/basic/InRange.qml /home/b6/Works/ImagePro/transformations/Canny.qml /home/b6/Works/ImagePro/basic/Convert.qml /home/b6/Works/ImagePro/basic/ColorDetection.qml /home/b6/Works/ImagePro/transformations/Filter2D.qml /home/b6/Works/ImagePro/transformations/Rotation.qml /home/b6/Works/ImagePro/transformations/Sobel.qml /home/b6/Works/ImagePro/transformations/Laplacian.qml /home/b6/Works/ImagePro/transformations/HoughLine.qml /home/b6/Works/ImagePro/transformations/HoughCircle.qml /home/b6/Works/ImagePro/transformations/GuilHough.qml /home/b6/Works/ImagePro/transformations/Remap.qml /home/b6/Works/ImagePro/transformations/Affine.qml /home/b6/Works/ImagePro/contours/DrawEgde.qml /home/b6/Works/ImagePro/contours/DrawShape.qml /home/b6/Works/ImagePro/contours/ConvexHull.qml /home/b6/Works/ImagePro/contours/Moments.qml /home/b6/Works/ImagePro/contours/PointPolygon.qml /home/b6/Works/ImagePro/basic/Contrast.qml /home/b6/Works/ImagePro/basic/TemplateMatching.qml /home/b6/Works/ImagePro/features2D/SIFT.qml /home/b6/Works/ImagePro/features2D/Subpix.qml /home/b6/Works/ImagePro/features2D/Custom.qml /home/b6/Works/ImagePro/features2D/HarrisCorner.qml /home/b6/Works/ImagePro/features2D/ShiTomasi.qml /home/b6/Works/ImagePro/features2D/FeaturesDescription.qml /home/b6/Works/ImagePro/features2D/FeaturesMatching.qml /home/b6/Works/ImagePro/features2D/ORB.qml /home/b6/Works/ImagePro/features2D/AKAZE.qml
+build .qt_plugins/Qt6_QmlPlugins_Imports_appImagePro.cmake | ${cmake_ninja_workdir}.qt_plugins/Qt6_QmlPlugins_Imports_appImagePro.cmake: CUSTOM_COMMAND /home/b6/Qt/6.6.3/gcc_64/libexec/qmlimportscanner .rcc/qmake_ImagePro.qrc .rcc/appImagePro_raw_qml_0.qrc /home/b6/Works/ImagePro/Main.qml /home/b6/Works/ImagePro/MainMenu.qml /home/b6/Works/ImagePro/MainToolBar.qml /home/b6/Works/ImagePro/LeftView.qml /home/b6/Works/ImagePro/RightView.qml /home/b6/Works/ImagePro/AdvancedTools.qml /home/b6/Works/ImagePro/2DFeaturesTools.qml /home/b6/Works/ImagePro/BasicTools.qml /home/b6/Works/ImagePro/FunctionsTools.qml /home/b6/Works/ImagePro/ContoursTools.qml /home/b6/Works/ImagePro/TransformationsTools.qml /home/b6/Works/ImagePro/basic/Exposure.qml /home/b6/Works/ImagePro/basic/Gamma.qml /home/b6/Works/ImagePro/basic/Smoothing.qml /home/b6/Works/ImagePro/basic/Morphology.qml /home/b6/Works/ImagePro/basic/ErodeDilate.qml /home/b6/Works/ImagePro/basic/ExtractLines.qml /home/b6/Works/ImagePro/basic/Threshold.qml /home/b6/Works/ImagePro/basic/InRange.qml /home/b6/Works/ImagePro/transformations/Canny.qml /home/b6/Works/ImagePro/basic/Convert.qml /home/b6/Works/ImagePro/basic/ColorDetection.qml /home/b6/Works/ImagePro/transformations/Filter2D.qml /home/b6/Works/ImagePro/transformations/Rotation.qml /home/b6/Works/ImagePro/transformations/Sobel.qml /home/b6/Works/ImagePro/transformations/Laplacian.qml /home/b6/Works/ImagePro/transformations/HoughLine.qml /home/b6/Works/ImagePro/transformations/HoughCircle.qml /home/b6/Works/ImagePro/transformations/GuilHough.qml /home/b6/Works/ImagePro/transformations/Remap.qml /home/b6/Works/ImagePro/transformations/Affine.qml /home/b6/Works/ImagePro/contours/DrawEgde.qml /home/b6/Works/ImagePro/contours/DrawShape.qml /home/b6/Works/ImagePro/contours/ConvexHull.qml /home/b6/Works/ImagePro/contours/Moments.qml /home/b6/Works/ImagePro/contours/PointPolygon.qml /home/b6/Works/ImagePro/basic/Contrast.qml /home/b6/Works/ImagePro/basic/TemplateMatching.qml /home/b6/Works/ImagePro/features2D/SIFT.qml /home/b6/Works/ImagePro/features2D/Subpix.qml /home/b6/Works/ImagePro/features2D/Custom.qml /home/b6/Works/ImagePro/features2D/HarrisCorner.qml /home/b6/Works/ImagePro/features2D/ShiTomasi.qml /home/b6/Works/ImagePro/features2D/FeaturesDetecting.qml /home/b6/Works/ImagePro/features2D/FeaturesMatching.qml /home/b6/Works/ImagePro/features2D/ORB.qml /home/b6/Works/ImagePro/features2D/AKAZE.qml /home/b6/Works/ImagePro/features2D/FeaturesStitching.qml /home/b6/Works/ImagePro/functions/IconColor.qml
   COMMAND = cd /home/b6/Works/ImagePro && /home/b6/Qt/6.6.3/gcc_64/./libexec/qmlimportscanner @/home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appImagePro.rsp
   DESC = Running qmlimportscanner for appImagePro
   restat = 1

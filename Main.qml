@@ -298,7 +298,7 @@ ApplicationWindow {
                 anchors.fill: parent
                 onClicked: {
                     downloadBt.index++
-                    cvController.saveImage("/home/b6/Works/ImagePro/assets/results/image_"+ downloadBt.index.toFixed(0)+ ".jpg")
+                    cvController.saveImage("/home/b6/Works/ImagePro/assets/results/image_"+ downloadBt.index.toFixed(0)+ ".png")
                 }
             }
         }
@@ -323,19 +323,25 @@ ApplicationWindow {
             fillMode: Image.PreserveAspectFit
         }
         Image{
-            id: redoBt
+            id: appendBt
             anchors.top: parent.top
             anchors.right: previousBt.left
             anchors.margins: _rightview.marginSize
             width: _rightview.sizeOfBt
             height: width
-            source: "assets/icons/right-arrowhead.png"
+            source: "assets/icons/circlePlus.png"
             fillMode: Image.PreserveAspectFit
+            MouseArea{
+                anchors.fill: parent
+                onClicked: {
+                    cvController.appendImg()
+                }
+            }
         }
         Image{
             id: refreshBt
             anchors.top: parent.top
-            anchors.right: redoBt.left
+            anchors.right: appendBt.left
             anchors.margins: _rightview.marginSize
             width: _rightview.sizeOfBt
             height: width
@@ -369,7 +375,7 @@ ApplicationWindow {
             anchors.bottom: parent.bottom
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.rightMargin: 10
-            font.pointSize: 14
+            font.pointSize: 12
         }
     }
 }
