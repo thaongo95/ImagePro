@@ -6,6 +6,7 @@ Rectangle {
     id: _root
     property int matchType: 0
     property string tempPath: ""
+    color: "transparent"
     Button {
         id: createBt
         anchors.top: parent.top

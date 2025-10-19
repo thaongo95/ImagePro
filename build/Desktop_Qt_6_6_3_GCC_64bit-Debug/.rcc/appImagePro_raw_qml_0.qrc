@@ -49,6 +49,7 @@
     <file alias="features2D/AKAZE.qml">/home/b6/Works/ImagePro/features2D/AKAZE.qml</file>
     <file alias="features2D/FeaturesStitching.qml">/home/b6/Works/ImagePro/features2D/FeaturesStitching.qml</file>
     <file alias="functions/IconColor.qml">/home/b6/Works/ImagePro/functions/IconColor.qml</file>
+    <file alias="transformations/Crop.qml">/home/b6/Works/ImagePro/transformations/Crop.qml</file>
     <file alias="assets/icons/ankh.png">/home/b6/Works/ImagePro/assets/icons/ankh.png</file>
     <file alias="assets/icons/ant.png">/home/b6/Works/ImagePro/assets/icons/ant.png</file>
     <file alias="assets/icons/bee.png">/home/b6/Works/ImagePro/assets/icons/bee.png</file>

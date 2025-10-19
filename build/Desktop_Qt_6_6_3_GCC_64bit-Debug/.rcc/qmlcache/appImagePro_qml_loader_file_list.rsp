@@ -51,3 +51,4 @@
 /qt/qml/ImagePro/features2D/AKAZE.qml
 /qt/qml/ImagePro/features2D/FeaturesStitching.qml
 /qt/qml/ImagePro/functions/IconColor.qml
+/qt/qml/ImagePro/transformations/Crop.qml

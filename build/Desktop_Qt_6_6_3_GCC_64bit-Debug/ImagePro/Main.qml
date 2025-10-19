@@ -298,7 +298,7 @@ ApplicationWindow {
                 anchors.fill: parent
                 onClicked: {
                     downloadBt.index++
-                    cvController.saveImage("/home/b6/Works/ImagePro/assets/results/image_"+ downloadBt.index.toFixed(0)+ ".png")
+                    cvController.saveImage("/home/b6/Works/ImagePro/assets/results/"+cvController.getName()+ downloadBt.index.toFixed(0)+ ".png")
                 }
             }
         }

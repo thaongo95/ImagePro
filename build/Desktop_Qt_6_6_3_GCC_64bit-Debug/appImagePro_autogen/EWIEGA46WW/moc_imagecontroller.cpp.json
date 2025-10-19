@@ -434,6 +434,21 @@
                     "access": "public",
                     "arguments": [
                         {
+                            "name": "matchingType",
+                            "type": "int"
+                        },
+                        {
+                            "name": "tempPath",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "guil_ballard",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
                             "name": "type",
                             "type": "int"
                         }
@@ -491,15 +506,27 @@
                     "access": "public",
                     "arguments": [
                         {
-                            "name": "matchingType",
-                            "type": "int"
+                            "name": "p1x",
+                            "type": "double"
                         },
                         {
-                            "name": "tempPath",
-                            "type": "QString"
+                            "name": "p1y",
+                            "type": "double"
+                        },
+                        {
+                            "name": "p2x",
+                            "type": "double"
+                        },
+                        {
+                            "name": "p2y",
+                            "type": "double"
+                        },
+                        {
+                            "name": "isCrop",
+                            "type": "bool"
                         }
                     ],
-                    "name": "guil_ballard",
+                    "name": "crop",
                     "returnType": "void"
                 },
                 {
@@ -734,6 +761,11 @@
                 {
                     "access": "public",
                     "name": "showInfo",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "getName",
                     "returnType": "QString"
                 },
                 {

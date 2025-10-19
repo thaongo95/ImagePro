@@ -147,6 +147,7 @@ qt_add_qml_module(appImagePro
     QML_FILES features2D/FeaturesStitching.qml
     QML_FILES functions/IconColor.qml
     RESOURCES assets/icons/circlePlus.png
+    QML_FILES transformations/Crop.qml
 
 )
 

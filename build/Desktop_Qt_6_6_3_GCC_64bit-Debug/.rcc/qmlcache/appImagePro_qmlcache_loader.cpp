@@ -348,6 +348,13 @@ namespace _qt_qml_ImagePro_functions_IconColor_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_ImagePro_transformations_Crop_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -411,6 +418,7 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ImagePro/features2D/AKAZE.qml"), &QmlCacheGeneratedCode::_qt_qml_ImagePro_features2D_AKAZE_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ImagePro/features2D/FeaturesStitching.qml"), &QmlCacheGeneratedCode::_qt_qml_ImagePro_features2D_FeaturesStitching_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ImagePro/functions/IconColor.qml"), &QmlCacheGeneratedCode::_qt_qml_ImagePro_functions_IconColor_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/ImagePro/transformations/Crop.qml"), &QmlCacheGeneratedCode::_qt_qml_ImagePro_transformations_Crop_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

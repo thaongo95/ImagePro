@@ -13,18 +13,23 @@ ImageController::ImageController(CvImageProvider* provider, QObject* parent)
     : QObject(parent), m_provider(provider) {}
 
 void ImageController::loadImage(const QString &filePath) {
-    m_original = cv::imread(filePath.toStdString(), cv::IMREAD_COLOR);
+    QFileInfo fi(filePath);
+
+    m_original = cv::imread(filePath.toStdString(), cv::IMREAD_UNCHANGED);
     if (m_original.empty()) {
         qWarning() << "Failed to load image:" << filePath;
         return;
     }
-    QFileInfo fi(filePath);
+
     image_info = "";
     image_info += QString("Name: %1 | ").arg(fi.fileName());
+    image_name = QString("%1").arg(fi.completeBaseName());
+    image_suffix = QString("%1").arg(fi.suffix());
     image_info += QString("Size: %1 x %2 | ").arg(m_original.cols).arg(m_original.rows);
     image_info += QString("Channels: %1 | ").arg(m_original.channels());
     image_info += QString("Image size: %1 bytes | ").arg(m_original.total() * m_original.elemSize());
     image_info += QString("Total pixels: %1").arg(m_original.total());
+
     m_current = m_original.clone();
     if (m_provider)
         m_provider->updateQImage(m_current);
@@ -74,7 +79,6 @@ void ImageController::basicExposure(const double &alpha, const int &beta)
     }
     cv::Mat expoImg;
     expoImg = exposure(m_current, alpha, beta);
-    cv::cvtColor(expoImg, expoImg, cv::COLOR_BGR2RGB);
     m_temp = expoImg.clone();
     if (m_provider)
         m_provider->updateQImage(m_temp);
@@ -510,6 +514,30 @@ void ImageController::affine(const double &p1x, const double &p1y, const double 
     m_temp = result.clone();
     if (m_provider)
         m_provider->updateQImage(m_temp);
+}
+
+void ImageController::crop(const double &p1x, const double &p1y, const double &p2x, const double &p2y, const bool& isCrop)
+{
+    int x = static_cast<int>(std::min(p1x, p2x)*m_current.cols);
+    int y = static_cast<int>(std::min(p1y, p2y)*m_current.rows);
+    int width = static_cast<int>(std::max(p1x,p2x)*m_current.cols - std::min(p1x, p2x)*m_current.cols);
+    int height = static_cast<int>(std::max(p1y,p2y)*m_current.rows - std::min(p1y, p2y)*m_current.rows );
+    cv::Rect roi(x, y, width, height);
+    cv::Mat result = m_current.clone();
+    cv::Mat overlay = m_current.clone();
+    overlay.setTo(cv::Scalar(0,0,0));
+    result(roi).copyTo(overlay(roi));
+    cv::addWeighted(overlay, 0.6, result, 0.4, 0, result);
+    if(isCrop){
+        m_temp = result(roi);
+        if (m_provider)
+            m_provider->updateQImage(m_temp);
+    }
+    else {
+        m_temp = result.clone();
+        if (m_provider)
+            m_provider->updateQImage(m_temp);
+    }
 }
 
 void ImageController::guil_ballard(const int &matchingType, const QString &tempPath)

@@ -56,5 +56,6 @@
 /home/b6/Works/ImagePro/features2D/AKAZE.qml
 /home/b6/Works/ImagePro/features2D/FeaturesStitching.qml
 /home/b6/Works/ImagePro/functions/IconColor.qml
+/home/b6/Works/ImagePro/transformations/Crop.qml
 --json
 /home/b6/Works/ImagePro/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appImagePro_qmllint.json

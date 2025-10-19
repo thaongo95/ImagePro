@@ -35,10 +35,11 @@ public:
     Q_INVOKABLE void houghline(const int& thres);
     Q_INVOKABLE void houghline_p(const int& thres, const double& minLength, const int& maxGap);
     Q_INVOKABLE void hough_circle(const int& minRadius, const int& maxRadius, const double& distance);
+    Q_INVOKABLE void guil_ballard(const int& matchingType, const QString &tempPath);
     Q_INVOKABLE void re_map(const int& type);
     Q_INVOKABLE void rotation(const int& angle, const float& scale);
     Q_INVOKABLE void affine(const double& p1x, const double& p1y, const double& p2x, const double& p2y, const double& p3x, const double& p3y);
-    Q_INVOKABLE void guil_ballard(const int& matchingType, const QString &tempPath);
+    Q_INVOKABLE void crop(const double& p1x, const double& p1y, const double& p2x, const double& p2y, const bool& isCrop);
 
     Q_INVOKABLE void harris_corner(const int& thresh);
     Q_INVOKABLE void shitomasi(const int& maxc_corners);
@@ -50,6 +51,7 @@ public:
     Q_INVOKABLE void featuresMatching(const int& matchingType, const QString &tempPath, const int& thresh);
     Q_INVOKABLE void featuresDetecting(const int& matchingType, const QString &tempPath, const int& thresh);
 
+
     Q_INVOKABLE void drawEgde(const int& cannyThres, const int& colorType);
     Q_INVOKABLE void convexHull(const int& cannyThres, const int& colorType);
     Q_INVOKABLE void drawShape(const int& cannyThres, const int& colorType, const int& shapeID);
@@ -59,6 +61,7 @@ public:
     Q_INVOKABLE void iconColor(const QString& path, const int& r, const int& g,const int& b);
 
     Q_INVOKABLE QString showInfo(){return image_info;}
+    Q_INVOKABLE QString getName(){return image_name;}
     Q_INVOKABLE void appendImg();
     Q_INVOKABLE void refresh();
 
@@ -67,7 +70,7 @@ private:
     CvImageProvider* m_provider;
     cv::Mat m_original, m_current, m_temp;
     std::vector<cv::Mat> history;
-    QString image_info;
+    QString image_info, image_name, image_suffix;
 };
 
 

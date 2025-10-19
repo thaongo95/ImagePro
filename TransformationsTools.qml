@@ -18,7 +18,9 @@ Item{
         {label: "Guil-Ballard", source: "assets/icons/peacebol.png", color:"#7fffd4", sourcefile: "transformations/GuilHough.qml"},
         {label: "Remap", source: "assets/icons/perspective.png", color:"#f08080", sourcefile: "transformations/Remap.qml"},
         {label: "Rotation", source: "assets/icons/chinese-symbol.png", color:"#7fffd4", sourcefile: "transformations/Rotation.qml"},
-        {label: "Affine", source: "assets/icons/radiation.png", color:"#daa520", sourcefile: "transformations/Affine.qml"}]
+        {label: "Crop", source: "assets/icons/symbol.png", color:"#9932cc", sourcefile: "transformations/Crop.qml"},
+        {label: "Affine", source: "assets/icons/radiation.png", color:"#daa520", sourcefile: "transformations/Affine.qml"}
+        ]
         delegate: Rectangle{
             height: parent.height*3/4
             anchors.verticalCenter: parent.verticalCenter

@@ -49,4 +49,5 @@ ORB 1.0 features2D/ORB.qml
 AKAZE 1.0 features2D/AKAZE.qml
 FeaturesStitching 1.0 features2D/FeaturesStitching.qml
 IconColor 1.0 functions/IconColor.qml
+Crop 1.0 transformations/Crop.qml
 
