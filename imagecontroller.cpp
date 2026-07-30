@@ -51,6 +51,14 @@ QString ImageController::getIntensity(int x, int y)
         int red = intensity[2];
         result = QString("R:%1 G:%2 B:%3 ")
                      .arg(red).arg(green).arg(blue);
+    } else if (m_original.channels()==4){
+        cv::Vec4b pixel = m_original.at<cv::Vec4b>(y, x);
+        uchar blue  = pixel[0];
+        uchar green = pixel[1];
+        uchar red   = pixel[2];
+        uchar alpha = pixel[3];
+        result = QString("R:%1 G:%2 B:%3 alpha:%4")
+                     .arg(red).arg(green).arg(blue).arg(alpha);
     }
     return result;
 }
@@ -77,9 +85,7 @@ void ImageController::basicExposure(const double &alpha, const int &beta)
     if (m_current.empty()) {
         return;
     }
-    cv::Mat expoImg;
-    expoImg = exposure(m_current, alpha, beta);
-    m_temp = expoImg.clone();
+    m_temp = exposure(m_current, alpha, beta);
     if (m_provider)
         m_provider->updateQImage(m_temp);
 }
